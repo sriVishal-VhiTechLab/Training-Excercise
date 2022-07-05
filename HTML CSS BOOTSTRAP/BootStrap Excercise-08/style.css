@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+.profileDropDown li {
+    height: 50px;
+}
+
+.profileDropDown {
+    display: none;
+    background-color: blueviolet;
+}
+
+.rightSideTwo:hover .pAngleDown {
+    transform: rotate(-180deg);
+    transition: 1s;
+}
+
+.rightSideTwo:hover .profileDropDown {
+    display: flex;
+    transition: 2s;
+    width: 190px;
+}
+
+nav {
+    font-size: 9px;
+}
+
+span {
+    height: 17px;
+    width: 17px;
+}
+
+*:hover {
+    cursor: pointer;
+}
+
+.leftSideMenuSection {
+    height: 850px;
+    background-color: #313640;
+}
+
+.mainContentSection {
+    height: 750px;
+}
+
+ul {
+    list-style: none;
+}
+
+.commonSec {
+    height: 47px;
+}
+
+.webLogo {
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.subSection {
+    display: none !important;
+}
+
+.liLabel {
+    font-size: 12px;
+    height: 20px;
+    color: rgb(97, 94, 88);
+}
+
+.dashBoard:hover {
+    cursor: pointer;
+}
+
+.dashBoard:hover .iconHover,
+.downIcon:hover,
+.liLabel:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.dashBoard:hover .downIcon {
+    color: #fff;
+}
+
+.dashBoard:hover .downIcon {
+    display: none;
+}
+
+.dashBoard:hover .upIcon {
+    display: block !important;
+}
+
+.dashBoard:hover .subSection {
+    display: block !important;
+}
+
+.iconHover {
+    color: blueviolet;
+}
+
+.downIcon {
+    color: rgb(97, 94, 88);
+}
+
+.upIcon {
+    display: none !important;
+}
+
+.oneSearchBar {
+    border-radius: 50px;
+    width: 80% !important;
+    height: 70%;
+    background-color: #77889959;
+}
+
+.navBarOneContainer,
+.navBarTwoContainer {
+    height: 40px;
+    border-bottom: 1px #333 solid;
+}
+
+.searchIcon {
+    font-size: 12px;
+    color: #333;
+}
+
+.oneSearchBar input {
+    height: 50%;
+    width: 40%;
+    border: none;
+    font-size: 13px;
+    color: #333;
+    background-color: transparent;
+}
+
+.rightSideMenuIcon {
+    width: 10%;
+    height: 100%;
+}
+
+.rightSideMenuIcon i {
+    color: #77889959;
+    font-size: 20px;
+}
+
+.leftSideTwo p {
+    font-size: 10px;
+}
+
+.rightSideTwo {
+    background-color: blueviolet;
+    color: white;
+}
+
+.name {
+    font-size: 13px;
+}
+
+.profileIcon {
+    color: black;
+    background-color: #fff;
+    height: 30px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.home {
+    color: blueviolet !important;
+}
+
+.mainContentGraphsSection {
+    height: 770px;
+    background-color: #00ffff21;
+}
+
+.graphsSectionOneContainer {
+    height: 230px;
+}
+
+.graphsDisplaySectionOne {
+    background-color: #fff;
+    height: 190px;
+    margin: auto;
+    width: 30%;
+}
+
+.graphsSectionTwoContainer {
+    height: 300px;
+}
+
+.secTwoSectionOne,
+.secTwoSectionTwo {
+    height: 300px;
+    background-color: #fff;
+}
+
+.secTwoSectionTwo {
+    width: 20%;
+}
+
+.graphsSectionThreeContainer {
+    height: 220px;
+    background-color: #fff;
+    margin: 0 auto !important;
+}
+
+#tIcon {
+    color: orange;
+    font-size: 25px;
+}
+
+tbody {
+    overflow-y: scroll;
+    height: 80px;
+    background-color: rgb(209, 196, 196);
+    font-size: 13px;
+}
+
+thead {
+    background-color: rgb(209, 196, 196);
+    height: 60px;
+    font-size: 13px;
+    border: 1px #333 solid !important;
+}
+
+tbody tr {
+    height: 50px;
+}
+
+tr {
+    border: 3px solid #fff !important;
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+.tableSectionHeader {
+    margin: 0 auto !important;
+}
+
+.mainSectionTableDisplay {
+    height: 90px;
+    margin: 0 auto !important;
+}
+
+.graphIcon {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 0% 1% 90% 1%;
+}
+
+.secOneLabel {
+    height: 20px;
+    border-radius: 50px;
+    background-color: #77889959;
+}
+
+.secOneLabel p {
+    font-size: 8px;
+    color: #fff;
+}
+
+.tlabel,
+.slabel {
+    background-color: #77889959;
+    padding: 10px;
+    height: 20px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    font-size: 8px;
+}
+
+
+/* MEDIA QUERIES STARTS HERE!!!!!!!! */
+
+
+/* PHONES */
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .oneSearchBar i,
+    .oneSearchBar input {
+        font-size: 10px !important;
+    }
+    .userIcon {
+        border-radius: 50% !important;
+        background-color: black;
+        height: 30px;
+        width: 30px;
+        color: white;
+        font-size: 10px;
+    }
+    .mainContentGraphsSection {
+        height: 1800px;
+    }
+    .graphsSectionOneContainer {
+        height: 1000px;
+    }
+    .graphsDisplaySectionOne {
+        width: 90% !important;
+        height: 280px;
+    }
+    .graphsSectionTwoContainer {
+        height: 800px;
+    }
+    li {
+        list-style: none;
+    }
+    .mobDropDown {
+        height: 100vh;
+        width: 200px;
+        top: -5px;
+        display: none;
+        background-color: #000;
+        margin-top: 5px !important;
+        border: 3px solid aqua;
+    }
+    .mobDropDown li {
+        height: 20px;
+        font-size: 13px;
+    }
+    .oneMenuIcon:hover .mobDropDown {
+        display: flex;
+        transition: 1s;
+    }
+    .mobHoverIcon {
+        color: blueviolet;
+    }
+    .textHover:hover {
+        color: red;
+    }
+}
+
+
+/* TABLETS */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContentGraphsSection {
+        height: 2500px;
+    }
+    .graphsSectionOneContainer {
+        height: 1700px;
+    }
+    .graphsDisplaySectionOne {
+        height: 500px;
+    }
+    .graphsSectionTwoContainer {
+        height: 800px;
+    }
+    .secTwoSectionOne,
+    .secTwoSectionTwo {
+        height: 380px;
+    }
+    .userIcon {
+        border-radius: 50% !important;
+        background-color: black;
+        height: 30px;
+        width: 30px;
+        color: white;
+        font-size: 10px;
+    }
+    li {
+        list-style: none;
+    }
+    .mobDropDown {
+        height: 100vh;
+        width: 200px;
+        top: -5px;
+        display: none;
+        background-color: #000;
+        border: 3px solid aqua;
+        margin-top: 5px !important;
+    }
+    .mobDropDown li {
+        height: 20px;
+        font-size: 13px;
+    }
+    .oneMenuIcon:hover .mobDropDown {
+        display: flex;
+        transition: 16789s;
+    }
+    .mobHoverIcon {
+        color: blueviolet;
+    }
+    .textHover:hover {
+        color: red;
+    }
+}
+
+
+/* LAPTOPS  */
+
+@media screen and (min-width: 993px) and (max-width: 1360px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .textSize,
+    .kum {
+        font-size: 10px !important;
+    }
+    .liLabel {
+        font-size: 8px;
+    }
+    .graphsSectionThreeContainer {
+        margin: 0 auto !important;
+    }
+    .profileIcon {
+        height: 20px;
+    }
+    .rightSideTwo:hover .profileDropDown {
+        width: 212px;
+    }
+}

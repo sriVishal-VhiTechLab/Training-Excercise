@@ -1,0 +1,110 @@
+* {
+      margin : 0;
+      padding: 0;
+}
+
+::-webkit-scrollbar {
+      display: none;
+}
+
+.bgi {
+      background-size  : 100% 100%;
+      background-repeat: no-repeat;
+
+}
+
+.headerMenu {
+      height       : 100px;
+      border-bottom: 1px solid #fff;
+}
+
+.hQuote {
+      font-family   : 'Cookie', cursive;
+      letter-spacing: 2px;
+      font-size     : 20px;
+      font-weight   : 900;
+}
+
+.hmHeader {
+      font-family   : 'Hubballi', cursive;
+      letter-spacing: 15px;
+      font-size     : 50px;
+      height        : 20px;
+}
+
+.headerNavbar {
+      height       : 70px;
+      border-bottom: 1px solid #fff;
+
+}
+
+.galleryContainer {
+      height: 466px;
+}
+
+.gCloseIcon {
+      height: 40px;
+}
+
+.cIcon {
+      font-size: 18px;
+
+}
+
+.webImagesContainer {
+      height: 1050px;
+}
+
+.section {
+      height               : 350px;
+      
+      grid-template-columns: auto auto auto;
+
+
+}
+
+.section1 {
+      background-image: url(./Assets/grid1.jpeg);
+      height          : 100%;
+
+}
+
+.section2 {
+      height          : 100%;
+      background-image: url(./Assets/grid2.jpg);
+}
+
+.section3 {
+      height          : 100%;
+      background-image: url(./Assets/grid3.jpg);
+}
+
+.section11 {
+      height          : 100%;
+      background-image: url(./Assets/grid-4.webp);
+}
+
+.section12 {
+      height          : 100%;
+      background-image: url(./Assets/grid5.jpeg);
+}
+
+.section13 {
+      height          : 100%;
+      background-image: url(./Assets/grid6.jpg);
+}
+
+.section21 {
+      height          : 100%;
+      background-image: url(./Assets/topimageone.jpg);
+}
+
+.section22 {
+      height          : 100%;
+      background-image: url(./Assets/topimagetwo.jpg);
+}
+
+.section23 {
+      height          : 100%;
+      background-image: url(./Assets/topimageThree.jpg);
+}

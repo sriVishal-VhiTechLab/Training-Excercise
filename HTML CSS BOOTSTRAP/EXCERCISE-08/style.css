@@ -1,0 +1,1106 @@
+/* -------------------------DEFAULT DESKTOP STYLES---------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.commonMenu {
+    height: 40px;
+}
+
+.menuBarDisplayContainer {
+    display: flex;
+    flex-direction: column;
+    color: rgba(245, 222, 179, 0.253);
+    margin-top: 25px;
+}
+
+.menuSectionContainer {
+    width: 17%;
+    height: 800px;
+    background-color: #323641;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.logoContainer {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#angleUpIcon {
+    padding-left: 40px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    display: none !important;
+}
+
+.dashBoard:hover .subSection {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.subSection li {
+    color: rgba(245, 222, 179, 0.253);
+}
+
+.subSection li:hover {
+    color: white;
+}
+
+.subSection li {
+    height: 30px;
+}
+
+.dashBoard:hover #angleUpIcon {
+    display: block !important;
+    cursor: pointer;
+}
+
+.dashBoardSection:hover #iconColor {
+    color: white;
+    cursor: pointer;
+}
+
+.commonMenu:hover #iconColor {
+    color: white;
+    cursor: pointer;
+}
+
+.commonMenu:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.dashBoardSection:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.dashBoard:hover #angleDownIcon {
+    display: none;
+    cursor: pointer;
+}
+
+.subSection {
+    display: none;
+    list-style: none;
+}
+
+.dashBoard {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+}
+
+#iconColor {
+    color: blueviolet;
+    display: flex;
+}
+
+#arrowDown {
+    padding-right: 10px;
+}
+
+.dashBoardSection {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.leftIcon {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.leftIcon:hover .commonSection {
+    color: white;
+}
+
+.commonMenu {
+    width: 95%;
+}
+
+.commonSection {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.LeftIcon {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#navText {
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#liLabel {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.mainContentContainer {
+    width: 83%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+}
+
+.mainContentMenuBarOneContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+#SearchBar {
+    outline: none;
+    border: none;
+    width: 80%;
+    background-color: #32364100;
+    color: 32364114;
+}
+
+.menuBarOneLeftSideSection {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menuBarOneRightSideSection {
+    display: flex;
+    width: 15%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menuOneIcon {
+    margin: 10px;
+}
+
+#SearchIcon {
+    font-size: 10px;
+    color: #3437414d;
+}
+
+.leftSideSearchBar {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    background-color: #32364114;
+    border-radius: 50px;
+    width: 30%;
+    margin-left: 15px;
+    justify-content: space-around;
+}
+
+.rightMenuIcon {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #bdb9b8;
+    justify-content: center;
+}
+
+span {
+    height: 13px;
+    width: 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.mainContentMenuBarTwoContainer {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.mainContentProfileMenuLeftSide {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+}
+
+#lMenuHeader {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Dongle", sans-serif;
+    font-weight: 300;
+    height: 85%;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+#Home {
+    font-size: 17px;
+    font-family: "Dongle", sans-serif;
+    color: blueviolet;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#DB {
+    margin-left: 3px;
+    font-size: 20px;
+    font-family: "Dongle", sans-serif;
+    margin-top: 5px;
+}
+
+#dB {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-family: "Dongle", sans-serif;
+}
+
+.profileMenuParaMeters {
+    display: flex;
+    width: 25%;
+    border-left: 5px solid blueviolet;
+    height: 85%;
+    align-items: center;
+}
+
+.profileIconThree {
+    display: none;
+}
+
+.mainContentProfileMenuRightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    color: white;
+}
+
+#profileIcon {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: black;
+    margin: auto;
+}
+
+.profileDisplay {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 20px;
+    font-family: "Popins", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#profileIcon2 {
+    display: flex;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    font-size: 15px;
+    margin: auto;
+}
+
+.mainContentGraphsSectionContainer {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    align-content: space-around;
+    background-color: #00ffff0d;
+}
+
+.mainContentGraphsSectionOne {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.graphsDisplay {
+    width: 30%;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.graphsParameters {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+#bitcoinIcon {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0% 1% 90% 1%;
+}
+
+.valueLines {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.valueLine1,
+.valueLine2 {
+    display: flex;
+    width: 90%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-weight: 550;
+    font-family: "Popins", sans-serif;
+    margin-left: 15px;
+}
+
+.valueLine2 {
+    margin-top: 20px;
+}
+
+#label {
+    height: 20px;
+    width: 35px;
+    background-color: #efeff0cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.imgDisplay1 {
+    background-image: url(./Assets/graph.jpg);
+}
+
+.imgDisplay2 {
+    background-image: url(./Assets/graph2.jpg);
+}
+
+.imgDisplay3 {
+    background-image: url(./Assets/graph3.jpg);
+}
+
+.imgDisplay1,
+.imgDisplay2,
+.imgDisplay3 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+
+.mainContentGraphsSectionTwo {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectionOne {
+    width: 71%;
+    height: 315px;
+    background-color: #fff;
+}
+
+.sectionOneHeader {
+    display: flex;
+    width: 95%;
+    height: 30px;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.overView {
+    font-family: "Popins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.overViewLabel {
+    display: flex;
+    width: 90px;
+    justify-content: space-around;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #dbd6d4;
+    align-items: center;
+    font-size: 10px;
+}
+
+.sectionTwo {
+    width: 22%;
+    height: 315px;
+    background-color: #fff;
+}
+
+.sectionTwoHeader {
+    height: 60px;
+    display: flex;
+    font-size: 13px;
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    letter-spacing: 2px;
+    justify-content: center;
+    font-family: "Popins", sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.mainContentTableSection {
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.tableSectionHeader {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.tLabel {
+    width: 100px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    background-color: #e7e2e1;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-family: "Popins", sans-serif;
+}
+
+.toverView {
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Popins", sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.tableDisplay {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.fstRow {
+    width: 95%;
+    height: 50px;
+    background-color: #eeeae8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 10px solid #fff;
+}
+
+td {
+    height: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+#tIcon {
+    font-size: 30px;
+    color: orange;
+}
+
+#arrowDown {
+    padding: 10px;
+    font-size: 15px;
+    color: red;
+}
+
+#trendIcon {
+    color: cyan;
+}
+
+#arrowUp {
+    padding: 10px;
+    font-size: 15px;
+    color: green;
+}
+
+#lRowIcon {
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+
+/* RESPONSIVE DESIGN STYLES STARTS HERE */
+
+
+/* STYLES FOR MOBILE HERE */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .menuSectionContainer {
+        display: none;
+    }
+    .mainContentContainer {
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .menuBarOneLeftSideSection {
+        width: 70%;
+    }
+    .leftSideSearchBar {
+        width: 50%;
+        margin-left: 0;
+    }
+    .overView {
+        margin: 0;
+    }
+    .menuBarOneRightSideSection {
+        width: 100px;
+        padding: 0 15px;
+        margin-right: 10px;
+    }
+    .rightMenuIcon {
+        padding: 10px;
+    }
+    .rightMenuIcon span {
+        top: 5px;
+        left: 18px;
+        height: 14px;
+    }
+    .mainContentMenuBarOneContainer {
+        height: 40px;
+        width: 100%;
+    }
+    .mainContentMenuBarTwoContainer {
+        display: flex;
+        width: 100%;
+        height: 40px;
+    }
+    .mainContentProfileMenuLeftSide {
+        width: 95%;
+    }
+    .mainContentProfileMenuRightSide {
+        display: none;
+        width: 35%;
+    }
+    .profileIconThree {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 5%;
+        font-size: 12px;
+    }
+    .mainContentProfileMenuRightSide p {
+        font-size: 11px;
+        width: 150px;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #profileIcon {
+        margin: 5px;
+        height: 17px;
+        width: 40px;
+        font-size: 10px;
+    }
+    .mainContentProfileMenuLeftSide p {
+        padding: 0;
+        padding-left: 5px;
+    }
+    #lMenuHeader {
+        font-size: 25px;
+        margin: 5px;
+    }
+    #Home {
+        padding: 0;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    #DB {
+        font-size: 25px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #dB {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .mainContentTableSection {
+        display: none;
+    }
+    .mainContentGraphsSectionContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+    }
+    .mainContentGraphsSectionOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+    }
+    .graphsDisplay {
+        width: 90%;
+        height: 220px;
+        margin-top: 15px;
+    }
+    .mainContentGraphsSectionTwo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        align-items: center;
+    }
+    .sectionOne {
+        width: 90%;
+        margin-top: 15px;
+    }
+    .sectionTwo {
+        width: 90%;
+        margin-top: 15px;
+    }
+}
+
+
+/* STYLES FOR MEDIUM SIZED  MOBILE SCREENS  */
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .menuSectionContainer {
+        display: none;
+    }
+    .mainContentContainer {
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .menuBarOneLeftSideSection {
+        width: 70%;
+    }
+    .leftSideSearchBar {
+        width: 50%;
+    }
+    .menuBarOneRightSideSection {
+        width: 100px;
+        padding: 0 15px;
+        margin-right: 10px;
+    }
+    .rightMenuIcon {
+        padding: 10px;
+    }
+    .rightMenuIcon span {
+        top: 5px;
+        left: 18px;
+        height: 14px;
+    }
+    .mainContentMenuBarOneContainer {
+        height: 40px;
+        width: 100%;
+    }
+    .mainContentMenuBarTwoContainer {
+        display: flex;
+        width: 100%;
+        height: 40px;
+    }
+    .mainContentProfileMenuLeftSide {
+        width: 65%;
+    }
+    .mainContentProfileMenuRightSide {
+        width: 35%;
+        display: none;
+    }
+    .mainContentProfileMenuRightSide p {
+        font-size: 11px;
+        width: 150px;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #profileIcon {
+        margin: 5px;
+        height: 17px;
+        width: 40px;
+        font-size: 10px;
+    }
+    .mainContentProfileMenuLeftSide p {
+        padding: 0;
+        padding-left: 5px;
+    }
+    #lMenuHeader {
+        font-size: 15px;
+        margin: 5px;
+    }
+    #Home {
+        padding: 0;
+    }
+    .mainContentTableSection {
+        display: none;
+    }
+    .mainContentGraphsSectionContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .mainContentGraphsSectionOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+    .graphsDisplay {
+        width: 90%;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .mainContentGraphsSectionTwo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        align-items: center;
+    }
+    .sectionOne,
+    .sectionTwo {
+        width: 90%;
+        margin-top: 15px;
+        height: 260px;
+    }
+}
+
+
+/* STYLES FOR TABLET SCREENS  */
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .menuSectionContainer {
+        display: none;
+    }
+    .mainContentContainer {
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .menuBarOneLeftSideSection {
+        width: 80%;
+    }
+    .leftSideSearchBar {
+        width: 50%;
+    }
+    .menuBarOneRightSideSection {
+        width: 20%;
+    }
+    .rightMenuIcon {
+        padding: 10px;
+    }
+    .rightMenuIcon span {
+        top: 5px;
+        left: 18px;
+        height: 14px;
+    }
+    .mainContentMenuBarOneContainer {
+        height: 40px;
+        width: 100%;
+    }
+    .mainContentMenuBarTwoContainer {
+        display: flex;
+        width: 100%;
+        height: 40px;
+    }
+    .mainContentProfileMenuLeftSide {
+        width: 95%;
+    }
+    .mainContentProfileMenuRightSide {
+        width: 20%;
+        display: none;
+    }
+    .profileIconThree {
+        display: flex;
+        width: 5%;
+        height: 100%;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .mainContentProfileMenuRightSide p {
+        font-size: 11px;
+        width: 150px;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #profileIcon {
+        margin: 5px;
+        height: 25px;
+        width: 5%;
+        font-size: 15px;
+    }
+    #mobIcon {
+        background-color: blueviolet;
+        height: 20px;
+        width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 50%;
+    }
+    .mainContentProfileMenuLeftSide p {
+        padding: 0;
+        padding-left: 5px;
+    }
+    #lMenuHeader {
+        font-size: 30px;
+    }
+    #Home {
+        padding: 0;
+    }
+    .mainContentTableSection {
+        display: none;
+    }
+    .mainContentGraphsSectionContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .mainContentGraphsSectionOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .graphsDisplay {
+        width: 90%;
+        height: 350px;
+        margin-top: 15px;
+    }
+    .mainContentGraphsSectionTwo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .sectionOne,
+    .sectionTwo {
+        width: 90%;
+        margin-top: 15px;
+        height: 260px;
+    }
+    .valueLines {
+        margin: 10px;
+    }
+}
+
+
+/* STYLES FOR LAPTOP SCREENS  */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContentContainer {
+        width: 79%;
+        height: 500px;
+        right: 2px;
+    }
+    .logoContainer {
+        margin-top: 15px;
+    }
+    .menuSectionContainer {
+        width: 21%;
+        height: 550px;
+    }
+    #angleUpIcon,
+    #angleDownIcon {
+        margin-top: 5px;
+    }
+    .subSection {
+        margin-top: 10px;
+        margin-left: 35px;
+        height: 30px;
+    }
+    #liLabel {
+        font-size: 12px;
+        letter-spacing: 0;
+        margin-left: 0;
+    }
+    .subSection li {
+        height: 30px;
+    }
+    .leftIcon {
+        align-items: center;
+        font-size: 10px;
+    }
+    .mainContentMenuBarOneContainer,
+    .mainContentMenuBarTwoContainer {
+        height: 40px;
+    }
+    .profileDisplay {
+        height: 80%;
+        width: 100%;
+        font-size: 10px;
+    }
+    .profileDisplay>p {
+        height: 100%;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainContentProfileMenuRightSide>p {
+        width: 120px;
+        font-size: 15px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    #profileIcon {
+        height: 23px;
+        width: 25px;
+    }
+    .graphsDisplay {
+        height: 170px;
+    }
+    .mainContentGraphsSectionOne {
+        height: 210px;
+    }
+    .mainContentGraphsSectionTwo {
+        height: 335px;
+    }
+    .sectionTwoHeader {
+        width: 160px;
+        margin-top: 10px;
+    }
+    .valueLine1,
+    .valueLine2 {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+    .commonMenu {
+        height: 35px;
+    }
+}

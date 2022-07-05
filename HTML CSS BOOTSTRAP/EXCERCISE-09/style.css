@@ -1,0 +1,1603 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.menuBarContainer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menuIcon {
+    display: none;
+}
+
+.logoDisplayContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 30%;
+}
+
+.logoImage {
+    height: 100%;
+    width: 15%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(./Assets/images.png);
+}
+
+.logoParameters {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logoText {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.logoFooter {
+    display: flex;
+    font-size: 8px;
+    color: blue;
+    justify-content: flex-end;
+    width: 125px;
+    margin-top: -5px;
+    letter-spacing: 1px;
+}
+
+.rightSideNavBarContainer {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-right: 40px;
+}
+
+li {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 30px;
+    width: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Dongle", sans-serif;
+}
+
+li:hover {
+    background-color: #131374;
+    color: white;
+}
+
+#homeMenu {
+    height: 30px;
+    background-color: #131374;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.headerBannerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 495px;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(./Assets/banner3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.headerBannerQuote {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    font-size: 40px;
+    height: 195px;
+    align-items: center;
+    letter-spacing: 3px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+}
+
+.aboutInfoContainer {
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.aboutHeader {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+}
+
+.aboutPara {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#aboutText {
+    width: 90%;
+    margin: auto;
+    font-family: "Mukta", sans-serif;
+}
+
+.servicesDisplayContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #8080803b;
+}
+
+.serviceHeaderDisplay {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+}
+
+.serviceBannerSectionOne,
+.serviceBannerSectionTwo {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#paraMeterHeader {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    font-size: 17px;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 12px;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+}
+
+#paraMeterPara {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.sectionOneParameters,
+.sectionTwoParameters {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceBannerSectionTwo {
+    margin-top: -20px;
+}
+
+.serviceBannerOneDisplay,
+.serviceBannerTwoDisplay {
+    width: 30%;
+    height: 150px;
+    display: flex;
+}
+
+.servicesIconSectionOne,
+.servicesIconSectionTwo {
+    width: 25%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #131374;
+    font-size: 25px;
+}
+
+.servicesTextSectionOne,
+.servicesTextSectionTwo {
+    width: 80%;
+    height: 175px;
+    background-color: #fff;
+}
+
+#serviceSectionText {
+    width: 80%;
+    height: 75%;
+    margin-left: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dongle", sans-serif;
+}
+
+.serviceSectionHeader {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    font-weight: 900;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+
+.portFolioContainer {
+    height: 300px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: auto;
+}
+
+.portFolioSectionOne {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portFolioSectionOneHeader {
+    font-size: 25px;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+}
+
+.portFolioSectionOneGraphsSection {
+    width: 50%;
+    height: 90%;
+    margin: auto 0;
+}
+
+#graph1,
+#graph2,
+#graph3,
+#graph4 {
+    height: 20px;
+    border-bottom: 8px solid #3c3cdb;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#graph1 {
+    width: 85%;
+}
+
+#graph2 {
+    width: 95%;
+}
+
+#graph3 {
+    width: 80%;
+}
+
+#graph4 {
+    width: 75%;
+}
+
+.portFolioSectionTwo {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.portFolioHeaderSection {
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: "Lato", sans-serif;
+}
+
+.portFolioParaSection {
+    margin-top: 20px;
+    width: 80%;
+    height: 100px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    justify-content: center;
+}
+
+.portFolioFooterSection {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.portFolioFooterSection>h4 {
+    width: 80%;
+    font-weight: 600;
+}
+
+.portFolioIconSection {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#lIcon,
+#rIcon {
+    display: flex;
+    background-color: #80808021;
+    height: 30px;
+    width: 40px;
+    font-size: 20px;
+    color: #131374;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.featuresContainer {
+    width: 100%;
+    height: 400px;
+    background-image: url(./Assets/banner2.jpg);
+    display: flex;
+    flex-direction: column;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.featuresSectionHeader {
+    display: flex;
+    font-size: 25px;
+    width: 100%;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 25px;
+    font-family: "Lato", sans-serif;
+}
+
+.textBoxContainer {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.featuresSectionBoxOne,
+.featuresSectionBoxTwo {
+    width: 45%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.boxTwoHeader,
+.boxOneHeader {
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 100%;
+    font-weight: bolder;
+    font-family: "Lato", sans-serif;
+}
+
+.boxOneText,
+.boxTwoText {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 10px;
+    width: 90%;
+    height: 200px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.clientsDisplayContainer {
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.clientSectionHeaderText {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+}
+
+.bannerImages {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+    height: 150px;
+    width: 15%;
+    border: 1px black solid;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url(./Assets/img1.png);
+}
+
+.img2 {
+    background-image: url(./Assets/img2.jpeg);
+}
+
+.img3 {
+    background-image: url(./Assets/img3.jpg);
+}
+
+.img4 {
+    background-image: url(./Assets/img4.png);
+}
+
+.img5 {
+    background-image: url(./Assets/img5.png);
+}
+
+.contactInfoDisplayContainer {
+    height: 475px;
+    width: 100%;
+    background-image: url(./Assets/island.jpg);
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSectionParaMeters {
+    display: flex;
+    height: 62%;
+    width: 40%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.contactInfoHeaderText {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: "Lato", sans-serif;
+}
+
+.addressDisplay,
+.phNumberDisplay,
+.phNumber2Display,
+.mailDisplay {
+    align-items: center;
+}
+
+.contactSectionDisplay {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.addressDisplay {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+}
+
+.phNumberDisplay {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.phNumber2Display {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.mailDisplay {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.formSectionDisplay {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.nameArea,
+.mailArea {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.area {
+    width: 75%;
+    height: 20px;
+    background-color: #fff;
+}
+
+.formSectionOneDisplay {
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+.formSectionTwoDisplay {
+    display: flex;
+    width: 100%;
+    height: 55%;
+    margin-top: 20px;
+}
+
+#text {
+    padding-left: 10px;
+}
+
+.messageArea {
+    width: 90%;
+}
+
+.msgBox {
+    height: 150px;
+    width: 98%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 20px;
+}
+
+.sendButtonDisplay {
+    display: flex;
+    width: 88%;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sendButton {
+    width: 30%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    justify-content: space-around;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.footerContainer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c77da;
+}
+
+.footerHeader {
+    font-size: 13px;
+    color: white;
+    margin: 15px;
+}
+
+.footerIconDisplay {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    align-items: center;
+}
+
+.footerIcon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.footerIcon>i {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#fbIcon {
+    color: blue;
+    background-color: #fff;
+}
+
+#gIcon {
+    color: red;
+    background-color: #fff;
+}
+
+#LIcon {
+    color: blue;
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+}
+
+#tIcon {
+    color: blue;
+    background-color: #fff;
+}
+
+
+/* MOBILE SCREENS */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContainer {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .menuBarContainer {
+        justify-content: space-between;
+        width: 95%;
+    }
+    .rightSideNavBarContainer,
+    .footerContainer,
+    iframe {
+        display: none;
+    }
+    .logoDisplayContainer {
+        width: 95%;
+    }
+    .logoImage {
+        width: 20%;
+    }
+    #menuIcon {
+        display: flex;
+        justify-content: center;
+        width: 5%;
+    }
+    #menuIcon {
+        display: flex;
+    }
+    .headerBannerContainer {
+        height: 350px;
+    }
+    .headerBannerQuote {
+        width: 80%;
+        height: 135px;
+        font-size: 15px;
+    }
+    .aboutHeader {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .aboutInfoContainer {
+        height: 200px;
+        width: 100%;
+    }
+    #aboutText {
+        font-size: 10px;
+    }
+    .servicesDisplayContainer {
+        width: 100%;
+        height: 1300px;
+    }
+    .serviceBannerSectionOne,
+    .serviceBannerSectionTwo {
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+    .serviceBannerOneDisplay,
+    .serviceBannerTwoDisplay {
+        width: 100%;
+    }
+    .portFolioContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+    .portFolioSectionOne {
+        width: 100%;
+        height: 50%;
+    }
+    .portFolioSectionOneGraphsSection {
+        width: 100%;
+    }
+    .portFolioSectionTwo {
+        width: 95%;
+        margin: 0;
+    }
+    .portFolioParaSection {
+        width: 85%;
+        margin-top: 0;
+        font-size: 10px;
+    }
+    .clientsDisplayContainer {
+        flex-direction: column;
+        height: 300px;
+    }
+    .bannerImages {
+        flex-direction: column;
+        height: 1100px;
+        width: 100%;
+        margin: auto;
+    }
+    #paraMeterHeader {
+        font-size: 13px;
+    }
+    #paraMeterPara {
+        font-size: 8px;
+    }
+    .servicesIconSectionOne,
+    .servicesIconSectionTwo {
+        height: 55px;
+        width: 20%;
+        font-size: 15px;
+    }
+    .serviceHeaderDisplay {
+        height: 40px;
+        margin-top: 15px;
+    }
+    .portFolioParaSection {
+        height: 60px;
+    }
+    .portFolioSectionOne,
+    .portFolioSectionTwo {
+        height: 250px;
+    }
+    .portFolioFooterSection>h4 {
+        font-size: 8px;
+    }
+    .featuresContainer {
+        height: 735px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .textBoxContainer {
+        flex-direction: column;
+        height: 650px;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .featuresSectionBoxOne {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+    .boxOneHeader {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .boxOneText {
+        height: 95%;
+        font-size: 10px;
+        width: 88%;
+        margin: auto;
+        letter-spacing: 0;
+        margin-top: 20px;
+    }
+    .featuresSectionBoxTwo {
+        width: 85%;
+        height: 290px;
+        margin: auto;
+    }
+    .boxTwoHeader {
+        font-size: 20px;
+        margin: 0;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .boxTwoText {
+        width: 88%;
+        margin: 0 auto;
+        font-size: 10px;
+        height: 95%;
+        margin-top: 20px;
+        letter-spacing: 0;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        width: 85%;
+        height: 200px;
+        margin: auto;
+    }
+    .clientsDisplayContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1150px;
+    }
+    .clientSectionHeaderText {
+        font-size: 25px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bannerImages {
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contactInfoDisplayContainer {
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contactSectionDisplay {
+        flex-direction: column;
+        height: 800px;
+    }
+    .contactInfoHeaderText {
+        font-size: 25px;
+        height: 30px;
+    }
+    .formSectionOneDisplay {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .contactSectionParaMeters {
+        width: 85%;
+        margin: auto;
+        font-size: 14px;
+        height: 200px;
+    }
+    .formSectionDisplay {
+        width: 85%;
+        margin: auto;
+    }
+    .formSectionTwoDisplay {
+        height: 50%;
+    }
+    .mailArea,
+    .nameArea {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .messageArea {
+        font-size: 12px;
+    }
+    .msgBox {
+        width: 112%;
+        margin-top: 10px;
+        height: 220px;
+    }
+    .sendButtonDisplay {
+        height: 25px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .sendButton {
+        height: 100%;
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 10px;
+    }
+}
+
+
+/* LARGE MOBILE SCREENS */
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContainer {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .menuBarContainer {
+        justify-content: space-between;
+        width: 95%;
+    }
+    .rightSideNavBarContainer,
+    .footerContainer,
+    iframe {
+        display: none;
+    }
+    .logoDisplayContainer {
+        width: 95%;
+    }
+    .logoImage {
+        width: 20%;
+    }
+    #menuIcon {
+        display: flex;
+        justify-content: center;
+        width: 5%;
+    }
+    #menuIcon {
+        display: flex;
+    }
+    .headerBannerContainer {
+        height: 350px;
+    }
+    .headerBannerQuote {
+        width: 80%;
+        height: 135px;
+        font-size: 15px;
+    }
+    .aboutHeader {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .aboutInfoContainer {
+        height: 200px;
+        width: 100%;
+    }
+    #aboutText {
+        font-size: 10px;
+    }
+    .servicesDisplayContainer {
+        width: 100%;
+        height: 1300px;
+    }
+    .serviceBannerSectionOne,
+    .serviceBannerSectionTwo {
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+    .serviceBannerOneDisplay,
+    .serviceBannerTwoDisplay {
+        width: 100%;
+    }
+    .portFolioContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+    .portFolioSectionOne {
+        width: 100%;
+        height: 50%;
+    }
+    .portFolioSectionOneGraphsSection {
+        width: 100%;
+    }
+    .portFolioSectionTwo {
+        width: 95%;
+        margin: 0;
+    }
+    .portFolioParaSection {
+        width: 85%;
+        margin-top: 0;
+        font-size: 10px;
+    }
+    .clientsDisplayContainer {
+        flex-direction: column;
+        height: 300px;
+    }
+    .bannerImages {
+        flex-direction: column;
+        height: 1100px;
+        width: 100%;
+        margin: auto;
+    }
+    #paraMeterHeader {
+        font-size: 13px;
+    }
+    #paraMeterPara {
+        font-size: 8px;
+    }
+    .servicesIconSectionOne,
+    .servicesIconSectionTwo {
+        height: 55px;
+        width: 20%;
+        font-size: 15px;
+    }
+    .serviceHeaderDisplay {
+        height: 40px;
+        margin-top: 15px;
+    }
+    .portFolioParaSection {
+        height: 60px;
+    }
+    .portFolioSectionOne,
+    .portFolioSectionTwo {
+        height: 250px;
+    }
+    .portFolioFooterSection>h4 {
+        font-size: 8px;
+    }
+    .featuresContainer {
+        height: 735px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .textBoxContainer {
+        flex-direction: column;
+        height: 650px;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .featuresSectionBoxOne {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+    .boxOneHeader {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .boxOneText {
+        height: 95%;
+        font-size: 10px;
+        width: 88%;
+        margin: auto;
+        letter-spacing: 0;
+        margin-top: 20px;
+    }
+    .featuresSectionBoxTwo {
+        width: 85%;
+        height: 290px;
+        margin: auto;
+    }
+    .boxTwoHeader {
+        font-size: 20px;
+        margin: 0;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .boxTwoText {
+        width: 88%;
+        margin: 0 auto;
+        font-size: 10px;
+        height: 95%;
+        margin-top: 20px;
+        letter-spacing: 0;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        width: 85%;
+        height: 200px;
+        margin: auto;
+    }
+    .clientsDisplayContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1150px;
+    }
+    .clientSectionHeaderText {
+        font-size: 25px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bannerImages {
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        height: 1180px;
+    }
+    .contactInfoDisplayContainer {
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contactSectionDisplay {
+        flex-direction: column;
+        height: 800px;
+    }
+    .contactInfoHeaderText {
+        font-size: 25px;
+        height: 30px;
+    }
+    .formSectionOneDisplay {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .contactSectionParaMeters {
+        width: 85%;
+        margin: auto;
+        font-size: 14px;
+        height: 200px;
+    }
+    .formSectionDisplay {
+        width: 85%;
+        margin: auto;
+    }
+    .formSectionTwoDisplay {
+        height: 50%;
+    }
+    .mailArea,
+    .nameArea {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .messageArea {
+        font-size: 12px;
+    }
+    .msgBox {
+        width: 112%;
+        margin-top: 10px;
+        height: 220px;
+    }
+    .sendButtonDisplay {
+        height: 25px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .sendButton {
+        height: 100%;
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 10px;
+    }
+}
+
+
+/* TABLET SCREENS */
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mainContainer {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .menuBarContainer {
+        justify-content: space-between;
+        width: 100%;
+        height: 60px;
+    }
+    .rightSideNavBarContainer,
+    .footerContainer,
+    iframe {
+        display: none;
+    }
+    .logoDisplayContainer {
+        width: 95%;
+    }
+    .logoImage {
+        width: 10%;
+    }
+    #menuIcon {
+        display: flex;
+        justify-content: center;
+        width: 5%;
+    }
+    #menuIcon {
+        display: flex;
+    }
+    .headerBannerContainer {
+        height: 350px;
+    }
+    .headerBannerQuote {
+        width: 85%;
+        height: 135px;
+        font-size: 25px;
+    }
+    .aboutHeader {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .aboutInfoContainer {
+        height: 200px;
+        width: 100%;
+    }
+    #aboutText {
+        font-size: 12px;
+    }
+    .serviceHeaderDisplay {
+        height: 50px;
+        font-size: 25px;
+    }
+    .servicesDisplayContainer {
+        width: 100%;
+        height: 1950px;
+    }
+    .serviceBannerSectionOne,
+    .serviceBannerSectionTwo {
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        height: 900px;
+    }
+    .servicesTextSectionOne,
+    .servicesTextSectionTwo {
+        height: 275px;
+    }
+    .serviceBannerOneDisplay,
+    .serviceBannerTwoDisplay {
+        width: 100%;
+        height: 900px;
+    }
+    .portFolioContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+    .portFolioSectionOne {
+        width: 100%;
+        height: 220px;
+    }
+    .portFolioSectionOneGraphsSection {
+        width: 100%;
+        height: 55%;
+        margin: 0;
+    }
+    .portFolioSectionTwo {
+        width: 95%;
+        margin: 0;
+        align-items: flex-start;
+    }
+    .portFolioParaSection {
+        width: 100%;
+        margin-top: 0;
+        height: 40px;
+        font-size: 15px;
+    }
+    .portFolioFooterSection {
+        justify-content: flex-start;
+        height: 0;
+    }
+    .clientsDisplayContainer {
+        flex-direction: column;
+        height: 300px;
+    }
+    .bannerImages {
+        flex-direction: column;
+        height: 1100px;
+        width: 100%;
+        margin: auto;
+    }
+    #paraMeterHeader {
+        font-size: 25px;
+    }
+    #paraMeterPara {
+        font-size: 15px;
+        width: 95%;
+    }
+    .servicesIconSectionOne,
+    .servicesIconSectionTwo {
+        height: 85px;
+        width: 15%;
+        font-size: 25px;
+    }
+    .serviceHeaderDisplay {
+        height: 40px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .portFolioParaSection {
+        height: 60px;
+    }
+    .portFolioSectionTwo {
+        height: 250px;
+    }
+    .portFolioFooterSection>h4 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .featuresContainer {
+        height: 735px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .textBoxContainer {
+        flex-direction: column;
+        height: 650px;
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .featuresSectionBoxOne {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+    .boxOneHeader {
+        width: 100%;
+        margin: 0;
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .boxOneText {
+        height: 95%;
+        font-size: 15px;
+        width: 88%;
+        margin: auto;
+        letter-spacing: 0;
+        margin-top: 20px;
+    }
+    .featuresSectionBoxTwo {
+        width: 85%;
+        height: 290px;
+        margin: auto;
+    }
+    .boxTwoHeader {
+        font-size: 20px;
+        margin: 0;
+        width: 100%;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .boxTwoText {
+        width: 88%;
+        margin: 0 auto;
+        font-size: 15px;
+        height: 95%;
+        margin-top: 20px;
+        letter-spacing: 0;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        width: 85%;
+        height: 370px;
+        margin: auto;
+    }
+    .clientsDisplayContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 2070px;
+    }
+    .clientSectionHeaderText {
+        font-size: 25px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bannerImages {
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        height: 2000px;
+    }
+    .contactInfoDisplayContainer {
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contactSectionDisplay {
+        flex-direction: column;
+        height: 800px;
+    }
+    .contactInfoHeaderText {
+        font-size: 25px;
+        height: 30px;
+    }
+    .formSectionOneDisplay {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .contactSectionParaMeters {
+        width: 85%;
+        margin: auto;
+        font-size: 14px;
+        height: 200px;
+    }
+    .formSectionDisplay {
+        width: 85%;
+        margin: auto;
+    }
+    .formSectionTwoDisplay {
+        height: 50%;
+    }
+    .mailArea,
+    .nameArea {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .messageArea {
+        font-size: 12px;
+    }
+    .msgBox {
+        width: 112%;
+        margin-top: 10px;
+        height: 220px;
+    }
+    .sendButtonDisplay {
+        height: 25px;
+        width: 50%;
+        justify-content: flex-start;
+    }
+    .sendButton {
+        height: 100%;
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 10px;
+    }
+}
+
+
+/* LAPTOP SCREENS */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .sendButton {
+        width: 40%;
+    }
+    #paraMeterPara {
+        font-size: 13px;
+    }
+    #paraMeterHeader {
+        font-size: 10px;
+    }
+    .servicesIconSectionOne,
+    .servicesIconSectionTwo {
+        font-size: 15px;
+        width: 20%;
+        height: 60px;
+    }
+    .boxOneText,
+    .boxTwoText {
+        font-size: 10px;
+    }
+    .boxOneHeader,
+    .boxTwoHeader {
+        font-size: 20px;
+    }
+}

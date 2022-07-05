@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, red 50%, white 50%);
+    display: flex;
+}
+
+.wrapper-1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.circ1 {
+    height: 23%;
+    width: 39%;
+    background-color: blueviolet;
+    border-radius: 0 1% 90% 1%;
+}
+
+.wrapper-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.rect {
+    height: 45%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.wrapper-3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+}
+
+.circ2 {
+    height: 25%;
+    width: 43%;
+    background-color: grey;
+    border-radius: 90% 1% 0% 1%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

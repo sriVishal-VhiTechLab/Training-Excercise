@@ -1,0 +1,929 @@
+* {
+    margin         : 0;
+    padding        : 0;
+    font-family    : 'Fredoka', sans-serif;
+    scroll-behavior: smooth;
+
+    letter-spacing: 1px;
+}
+.fsButton {
+    width: 110px;
+}
+.footerLine{
+    font-size: 15px;
+}
+.mobDropDown li {
+    height: 30px;
+}
+.ddContent2 {
+    width: 70%;
+}
+
+.hrContainer {
+    height    : 70px !important;
+    margin-top: -30px !important;
+
+    margin    : 20px auto;
+    border-top: 1px solid #333;
+}
+
+.subHeader {
+    font-size: 12px;
+}
+
+.iBadge {
+    font-size    : 10px;
+    height       : 15px;
+    width        : 15px;
+    border-radius: 50%;
+    top          : -10px;
+    right        : -10px;
+}
+
+.imgQuote div {
+    font-family: 'Arvo', serif !important;
+}
+
+.imgQuote {
+    height     : 120px;
+    align-items: center;
+    opacity    : 0.9;
+    margin     : 30px auto !important;
+
+}
+
+.date {
+    font-size: 12px !important;
+}
+
+.fontWeight {
+    font-weight: 900;
+}
+
+.imgBanner div {
+    font-size: 15px;
+}
+
+.hMainMenu>ul li,
+
+.searchLabel,
+.searchContainer>a input {
+    font-size: 12px;
+}
+
+hr {
+    margin          : 0px !important;
+    width           : 50%;
+    height          : 1px !important;
+    color           : #000;
+    background-color: #000;
+}
+
+.hot {
+    top          : 10px;
+    right        : -5px;
+    border-radius: 50px !important;
+}
+
+.sale {
+    top          : 10px;
+    right        : 5px;
+    border-radius: 50px !important;
+}
+
+.new {
+    position     : absolute;
+    left         : 70px;
+    top          : 10px;
+    height       : 15px;
+    width        : 35px;
+    border-radius: 50px !important;
+    font-size    : 8px !important;
+}
+
+
+
+input {
+    border : none;
+    outline: none;
+
+}
+
+.add {
+    font-size: 15px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+.bgi {
+    background-size  : 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.headerMenuBarContainer {
+    height          : 40px;
+    border-bottom   : 1px solid #333;
+    background-image: linear-gradient(180deg, rgba(12, 16, 49, 0.5), rgba(20, 19, 21, 0.5)), url(./Assets/navbackground.jpg);
+}
+
+.hicon {
+    height       : 25px;
+    width        : 25px;
+    font-size    : 15px;
+    border-radius: 50%;
+    border       : 1px solid #fff;
+}
+
+.navBarTwoContainer {
+    height       : 60px;
+    border-bottom: 1px solid #333;
+    z-index      : 1;
+}
+
+.mobDropDown {
+    left            : 0;
+    width           : 200px;
+    height          : 100vh;
+    
+    display         : none;
+}
+
+.mobMenu:hover .mobDropDown {
+    display       : flex;
+    flex-direction: column;
+}
+
+.webLogoContainer {
+    background-image: url(./Assets/logo2.png);
+}
+
+.hGalleryContainer {
+    height: 300px;
+
+
+}
+
+.hImgOne:hover,
+.hImgTwo:hover,
+.hImgThree:hover {
+    opacity: 0.6;
+}
+
+.hImgOne,
+.hImgTwo,
+.hImgThree {
+    height: 290px;
+}
+
+.hImgOne {
+    background-image: url(./Assets/topimageone.jpg);
+}
+
+.hImgTwo {
+    background-image: url(./Assets/topimagetwo.jpg);
+}
+
+.hImgThree {
+    background-image: url(./Assets/topimageThree.jpg);
+}
+
+.imgBanner {
+    height : 100px;
+    opacity: 0.8;
+}
+
+.mainContentRightSectionContainer {
+    height: 1200px;
+}
+
+.mainContentImageSection {
+    height: 700px;
+}
+
+.imgOne {
+    background-image: url(./Assets/img1.jpg);
+    height          : 500px;
+}
+
+.imgTwo {
+    background-image: url(./Assets/img2.jpg);
+}
+
+.imgThree {
+    background-image: url(./Assets/img3.jpg);
+}
+
+.imgOne,
+.imgTwo,
+.imgThree {
+    height: 500px;
+}
+
+.mainContentImageSection {
+    background-color: lightgray;
+}
+
+.mainContentFooterContainer {
+    height          : 400px;
+    background-image: linear-gradient(180deg, rgba(28, 27, 26, 0.9), rgba(14, 14, 13, 0.9)), url("./Assets/polar.jpg");
+
+
+}
+
+.footerDisplay {
+    height             : 250px;
+    margin             : 50px auto;
+    /* background-color: red; */
+}
+
+.dOneHeader {
+    height        : 30px;
+    font-size     : 25px;
+    letter-spacing: 15px;
+    /* text-align : center; */
+}
+
+.dtHeader {
+    font-weight   : 900 !important;
+    letter-spacing: 3px;
+    font-size     : 18px;
+}
+
+.webFooterContainer {
+    height          : 60px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(14, 14, 13, 0.8));
+    border          : 1px solid #000;
+}
+
+.fSearchBar {
+    border       : 1px solid #fff;
+    border-radius: 50px;
+    height       : 50px;
+}
+
+.fSearchBar input {
+    height   : 55%;
+    border   : none;
+    margin   : 5px;
+    font-size: 12px;
+}
+
+
+.fSearchBar a {
+    border-radius: 50px;
+    height       : 80%;
+    margin       : 5px;
+
+
+}
+
+.fIcon {
+    opacity  : 0.8;
+    font-size: 20px;
+}
+
+.goTopButton {
+    height          : 35px;
+    width           : 35px;
+    background-color: #f4a46091;
+    border          : 1px solid #fff;
+    border-radius   : 50%;
+    right           : 10px;
+    bottom          : 10px;
+    z-index         : 100;
+}
+
+button {
+    background-color: lightgray;
+    border          : 1px solid #C19A6B;
+    color           : #C19A6B;
+    font-size: 8px;
+
+}
+
+.searchContainer {
+    height: 150px;
+}
+
+.tagsDisplay {
+    height   : 150px;
+    flex-wrap: wrap;
+}
+
+.searchContainer a {
+    height       : 40px;
+    border       : 1px solid #333;
+    border-radius: 50px;
+}
+
+.searchContainer input {
+    border: none !important;
+}
+
+.lSearchLabel {
+    border-radius: 50px;
+    height       : 95%;
+}
+
+.categContainer {
+    height: 150px;
+}
+
+.categBox {
+    height    : 50px;
+    overflow-y: scroll;
+}
+
+.categBox li {
+    height: 30px;
+}
+
+.tagsContainer {
+    height: 200px;
+}
+
+.tagsDisplay div {
+    font-size: 10px;
+    height   : 35px;
+}
+
+.tagsDisplay div:hover {
+    background-color: pink !important;
+    color           : red !important;
+    border          : 1px solid red !important;
+}
+
+.instaContainer {
+    height: 350px;
+}
+
+.instaGrid {
+    height: 300px;
+}
+
+.grid {
+    grid-template-columns: auto auto auto;
+    height               : 275px;
+    gap                  : 2px;
+}
+
+.instaImage1 {
+    background-image: url(./Assets/grid-1.jpg);
+}
+
+.instaImage2 {
+    background-image: url(./Assets/grid-3.jpg);
+}
+
+.instaImage3 {
+    background-image: url(./Assets/grid-6.jpg);
+}
+
+.instaImage4 {
+    background-image: url(./Assets/grid-7.jpg);
+}
+
+.instaImage5 {
+    background-image: url(./Assets/grid-8.jpg);
+}
+
+.instaImage6 {
+    background-image: url(./Assets/grid-9.jpg);
+}
+
+.instaImage7 {
+    background-image: url(./Assets/grid-6.jpg);
+}
+
+.instaImage8 {
+    background-image: url(./Assets/grid-7.jpg);
+}
+
+.instaImage9 {
+    background-image: url(./Assets/grid-3.jpg);
+}
+
+.blogContainer {
+    height: 420px;
+}
+
+.blogs {
+    height: 300px;
+}
+
+.blogs div {
+    height: 90px;
+}
+
+.pic1 {
+    background-image: url(./Assets/green1_small.jpg);
+}
+
+.pic2 {
+    background-image: url(./Assets/g-01_small.jpg);
+}
+
+.pic3 {
+    background-image: url(./Assets/gird-2.jpg);
+}
+
+.recentContainer {
+    height: 370px;
+}
+
+.recPara {
+    height: 350px;
+}
+
+/* MEDIA QUERIES STARTS HERE */
+/* SMALL SCREENS (XS)*/
+@media (min-width: 320px) and (max-width: 575px) {
+    * {
+        margin : 0;
+        padding: 0;
+    }
+
+
+
+    .hGalleryContainer {
+        height: 900px;
+    }
+
+    .imgQuote div {
+        font-size: 7px;
+    }
+    .imgBanner div {
+        font-size: 10px;
+    }
+
+    .hImgOne,
+    .hImgTwo,
+    .hImgThree {
+        height: 300px;
+    }
+
+.mobDropDown {
+    height: 100vh;
+}
+
+    .mainContentFooterContainer {
+        height: 900px;
+    }
+
+    .webFooterContainer {
+        height: 80px;
+    }
+
+    .footerLine {
+        font-size: 8px;
+    }
+
+    .webLogoContainer {
+        background-size: 95% 90% !important;
+    }
+
+    .mainContentContainer {
+        height: 1850px;
+
+    }
+
+    .imgOne,
+    .imgTwo,
+    .imgThree {
+        height: 240px;
+    }
+
+    .mainContentImageSection {
+        height: 580px;
+        margin: 15px auto !important;
+
+    }
+
+    .subHeader {
+        font-size: 10px;
+    }
+.dOneHeader {
+    width: 70%;
+}
+    .dtHeader {
+        font-size: 20px;
+    }
+
+    .dtHeader i {
+        font-size: 15px;
+    }
+
+    .footerDivTwo:hover .min1,
+    .footerDivThree:hover .min2,
+    .footerDivFour:hover .min3 {
+        display: flex;
+    }
+
+    .max1,
+    .max2,
+    .max3 {
+        display    : flex !important;
+        align-items: center;
+    }
+
+    .footerDivTwo:hover .max1,
+    .footerDivThree:hover .max2,
+    .footerDivFour:hover .max3 {
+        display: none !important;
+    }
+
+    .min1,
+    .min2,
+    .min3 {
+        display: none !important;
+    }
+
+    .footerDivTwo:hover .min1,
+    .footerDivThree:hover .min2,
+    .footerDivFour:hover .min3 {
+        display    : flex !important;
+        align-items: center;
+    }
+
+    .hrContainer {
+        margin-top: 0px !important;
+        height    : 50px !important;
+    }
+
+    .ddContent2,
+    .ddContent3,
+    .ddContent4 {
+        display: none;
+    }
+
+    .footerDivTwo:hover .ddContent2,
+    .footerDivThree:hover .ddContent3,
+    .footerDivFour:hover .ddContent4 {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+    .footerLine {
+        font-size: 6px;
+    }
+.dtHeader {
+    justify-content: center;
+}
+
+
+}
+
+/* MEDIUM SIZED SCREENS (SM) */
+@media (min-width: 576px) and (max-width: 767px) {
+    * {
+        margin : 0;
+        padding: 0;
+    }
+
+    .hGalleryContainer {
+        height: 1300px;
+    }
+
+    .hImgOne,
+    .hImgTwo,
+    .hImgThree {
+        height: 450px;
+    }
+
+    .imgBanner div {
+        font-size: 20px;
+    }
+
+    .mainContentFooterContainer {
+        height: 1800px;
+    }
+
+    .webFooterContainer {
+        height: 60px;
+    }
+
+    .footerLine {
+        font-size: 15px;
+    }
+
+    .webLogoContainer {
+        background-size: 55% 100% !important;
+    }
+
+    .mainContentContainer {
+        height: 3200px;
+    }
+
+    .imgBanner div {
+        font-size: 20px;
+    }
+
+    .mainContentFooterContainer {
+        height: 1800px;
+    }
+
+    .webFooterContainer {
+        height: 60px;
+    }
+
+    .footerLine {
+        font-size: 15px;
+    }
+
+    .dtHeader {
+        font-size      : 30px;
+        display        : flex;
+        justify-content: center;
+    }
+
+    .mainContentContainer {
+        height: 2045px;
+    }
+
+    .mainContentFooterContainer {
+        height: 1450px;
+    }
+
+    .subHeader {
+        font-size: 13px;
+    }
+
+    .max1 {
+        display    : flex !important;
+        align-items: center;
+    }
+
+    .footerDivTwo:hover .max1 {
+        display: none !important;
+    }
+
+    .min1 {
+        display: none !important;
+    }
+
+    .footerDivTwo:hover .min1 {
+        display    : flex !important;
+        align-items: center;
+    }
+
+    .ddContent2,.ddContent3, .ddContent4 {
+        display: none;
+    }
+
+    .footerDivTwo:hover .ddContent2 {
+        display       : flex;
+        flex-direction: column;
+    }
+}
+/* MEDIUM SCREENS (MD) */
+@media (min-width: 768px) and (max-width: 991px){
+    .webLogoContainer {
+        background-size: 70% 95% !important;
+    }
+    .hGalleryContainer {
+        height: 1700px;
+    }
+    .hImgOne, .hImgTwo, .hImgThree{
+        height: 570px;
+    }
+    .mainContentFooterContainer {
+        height: 900px;
+    }
+    .imgOne ,.imgTwo, .imgThree {
+        height: 330px;
+    }
+    .mainContentImageSection {
+        height: 500px;
+    }
+    .hrContainer {
+        margin-top: 5px !important;
+    }
+    .imgBanner {
+        height: 165px;
+        justify-content: center;
+    }
+    .add {
+        font-size: 10px;
+    }
+    .max1 ,.max2,.max3 {
+        display    : flex !important;
+        align-items: center;
+    }
+
+    .footerDivTwo:hover .max1, 
+    .footerDivThree:hover .max2,
+    .footerDivFour:hover .max3 {
+        display: none !important;
+    }
+
+    .min1, .min2, .min3 {
+        display: none !important;
+    }
+
+    .footerDivTwo:hover .min1 {
+        display    : flex !important;
+        align-items: center;
+    }
+
+    .ddContent2, .ddContent3, .ddContent4 {
+        display: none;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .footerDivTwo:hover .ddContent2,
+    .footerDivThree:hover .ddContent3,
+    .footerDivFour:hover .ddContent4 {
+        display       : flex;
+        flex-direction: column;
+    }
+    .footerLine {
+        font-size: 13px;
+    }
+    .dtHeader{ 
+        justify-content: center;
+    }
+}
+/* LAPTOPS (Lg) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    * {
+        margin : 0;
+        padding: 0;
+    }
+
+    .searchContainer a {
+        height: 30px;
+    }
+
+    .lSearchLabel {
+        width: 30% !important;
+    }
+
+    .tagsDisplay div {
+        font-size: 8px;
+    }
+
+    .bLabel,
+    .recPara {
+        font-size: 10px;
+    }
+
+    .max1,
+    .min1 {
+        display: none !important;
+    }
+
+    .add {
+        font-size: 12px;
+    }
+
+    .dOneHeader {
+        font-size: 20px;
+        justify-content: flex-start;
+    }
+
+    .dtHeader {
+        font-size: 15px;
+    }
+
+    .hGalleryContainer {
+        height: 250px;
+    }
+
+    .hImgOne,
+    .hImgTwo,
+    .hImgThree {
+        height: 250px;
+    }
+
+    .imgBanner div {
+        font-size: 10px;
+    }
+
+    .mainContentFooterContainer {
+        height: 400px;
+    }
+
+    .webFooterContainer {
+        height: 60px;
+    }
+
+    .footerLine {
+        font-size: 15px;
+    }
+
+    .webLogoContainer {
+        background-size: 100% 100% !important;
+    }
+
+
+
+    .imgOne,
+    .imgTwo,
+    .imgThree {
+        height: 350px;
+    }
+
+    .mainContentContainer {
+        height: 1915px;
+    }
+
+    .mainContentImageSection {
+        height: 535px;
+    }
+
+    .hMainMenu>ul li,
+    .imgBanner>div p,
+    .searchLabel,
+    .searchContainer>a input {
+        font-size: 9px;
+    }
+
+    .instaGrid,
+    .grid {
+        height: 200px;
+    }
+
+    .instaContainer {
+        height: 265px;
+    }
+
+    .new,
+    .hot,
+    .sale {
+        left     : 55px;
+        top      : 18px;
+        height   : 10px;
+        width    : 30px;
+        font-size: 7px;
+    }
+
+    .iconContainer,
+    .footerDivTwo>a li,
+    .footerDivThree>a li,
+    .footerDivFour>a li {
+        font-size: 13px;
+    }
+
+    .footerDivFive {
+        font-size: 10px;
+    }
+
+    .blogs div {
+        height: 70px;
+    }
+
+    .min1,
+    .min2,
+    .min3,
+    .max1,
+    .max2,
+    .max3 {
+        display: none !important;
+    }
+}
+/* OTHER BIG SCREENS (XL, XXL) */
+@media (min-width: 1200px) {
+    .hGalleryContainer {
+        height: 300px;
+    }
+
+    .min1,
+    .min2,
+    .min3,
+    .max1,
+    .max2,
+    .max3 {
+        display: none !important;
+    }
+
+    .hImgOne,
+    .hImgTwo,
+    .hImgThree {
+        height: 280px;
+    }
+
+    .imgBanner div {
+        font-size: 14px;
+    }
+
+    .hMainMenu>ul li,
+
+    .searchLabel,
+    .searchContainer>a input {
+        font-size: 12px;
+    }
+
+    .max1,
+    .min1 {
+        display: none !important;
+    }
+
+
+}

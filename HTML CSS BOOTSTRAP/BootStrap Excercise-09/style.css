@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 2px;
+}
+
+.mAuto {
+    margin: 20px auto;
+}
+
+button {
+    height: 40px;
+}
+
+.hbigText {
+    height: 25px;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+.hQuoteText {
+    font-size: 7px;
+    height: 10px;
+    width: 170px;
+    margin-top: 5px;
+    letter-spacing: 1px !important;
+}
+
+.logoText {
+    height: 35px !important;
+    /* background-color: red; */
+}
+
+body {
+    scroll-behavior: smooth !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.goTop {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.goTop:hover {
+    border: 2px solid red;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.fontWeight {
+    font-weight: 900;
+}
+
+.bgi {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.aboutMenu:hover,
+.servicesMenu:hover,
+.portMenu:hover {
+    background-color: blue;
+    color: yellow;
+    font-weight: 900;
+}
+
+.hdownIcon {
+    margin-top: 11px;
+}
+
+.abtdownIcon {
+    margin-top: 27px;
+}
+
+.hdownIcon,
+.abtdownIcon {
+    height: 10px;
+    width: 10px;
+}
+
+.homeMenu:hover .hdownIcon,
+.aboutMenu:hover .abtdownIcon,
+.servicesMenu:hover .sdownIcon,
+.portMenu:hover .pdownIcon {
+    transform: rotate(-180deg);
+    transition: 0.6s;
+}
+
+.servicesDropDown {
+    display: none;
+}
+
+.homeMenu:hover .homeDropDown,
+.aboutMenu:hover .aboutDropDown,
+.servicesMenu:hover .servicesDropDown,
+.portMenu:hover .portDropDown {
+    display: flex;
+}
+
+.homeMenu:hover .homeDropDown {
+    margin-left: 20px;
+}
+
+.homeLi {
+    height: 50px;
+}
+
+.portDropDown {
+    width: 170px;
+    display: none;
+    margin-left: -8px;
+}
+
+.aboutDropDown,
+.servicesDropDown {
+    width: 250px;
+    display: none;
+    margin-left: -10px;
+}
+
+.homeDropDown {
+    width: 250px;
+    margin-left: 145px;
+    display: none;
+}
+
+.webHeaderContainer {
+    height: 50px;
+    border-bottom: 1px solid #333;
+}
+
+.logoImage {
+    background-image: url(./Assets9/images.png);
+    background-size: 110% 100% !important;
+}
+
+.bigText {
+    font-size: 25px;
+}
+
+.smallText {
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+.bannerContainer {
+    height: 500px;
+    background-image: linear-gradient( 180deg, rgba(12, 16, 49, 0.6), rgba(20, 19, 21, 0.8)), url(./Assets9/banner3.jpg);
+}
+
+.bannerText {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.aboutHeader,
+.featuresHeader {
+    font-size: 30px;
+    height: 100px;
+}
+
+.aboutText {
+    margin: 0 auto;
+}
+
+.aboutInfoContainer {
+    height: 250px;
+}
+
+.serviceSectionOne,
+.serviceSectionTwo {
+    height: 250px;
+}
+
+.servicesSectionContainer {
+    height: 700px;
+    background-color: #d3d3d340;
+}
+
+.servicesHeader {
+    height: 50px;
+    font-size: 25px;
+}
+
+.serviceSection {
+    height: 220px;
+}
+
+.iconSectionOne,
+.iconSectionTwo {
+    height: 60px;
+    width: 60px;
+}
+
+.clientSectionContainer {
+    height: 350px;
+}
+
+.one {
+    width: 83%;
+}
+
+.two {
+    width: 62%;
+}
+
+.three {
+    width: 90%;
+}
+
+.four {
+    width: 78%;
+}
+
+.one,
+.two,
+.three,
+.four {
+    border-bottom: 7px solid blue;
+    height: 40px;
+}
+
+.headerTextOne,
+.headerTextTwo,
+.clientsHeader,
+.contactHeader {
+    font-size: 25px;
+}
+
+.cContentSection h5 {
+    font-size: 10px;
+}
+
+.cIconSection i {
+    font-size: 20px;
+    background-color: #d3d3d340;
+    height: 30px;
+    width: 30px;
+}
+
+.featuresSection {
+    height: 400px;
+    background-image: linear-gradient( 180deg, rgba(12, 16, 49, 0.5), rgba(20, 19, 21, 0.5)), url(./Assets9/banner2.jpg);
+}
+
+.dispOne {
+    height: 230px;
+}
+
+.clientsBannerDisplay {
+    height: 250px;
+}
+
+.bannerImages {
+    height: 160px;
+}
+
+.bannerImages div {
+    border: 1px solid #333;
+}
+
+.bannerImages div:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.bannerOne {
+    background-image: url(./Assets9/aesc\ logo.png);
+}
+
+.bannerTwo {
+    background-image: url(./Assets9/sgp.png);
+}
+
+.bannerThree {
+    background-image: url(./Assets9/travellife.jpeg);
+}
+
+.bannerFour {
+    background-image: url(./Assets9/download\ \(1\).png);
+}
+
+.bannerFive {
+    background-image: url(./Assets9/aa\ southern\ india.jpg);
+}
+
+.contactInfoContainer {
+    background-image: linear-gradient( 180deg, rgba(12, 16, 49, 0.5), rgba(20, 19, 21, 0.5)), url(./Assets9/sea.jpg);
+}
+
+.mapsDisplayContainer {
+    height: 600px;
+}
+
+.footerSectionContainer {
+    height: 60px;
+}
+
+li {
+    list-style: none;
+}
+
+.fIcon {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.fIcon:hover {
+    border: 1px solid red;
+}
+
+
+/* MEDIA QUERIES */
+
+
+/* MOBILES */
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .bannerContainer {
+        height: 350px;
+    }
+    .aboutInfoContainer {
+        height: 225px;
+        font-size: 10px;
+    }
+    .two {
+        width: 70% !important;
+    }
+    .sDesc {
+        font-size: 13px;
+    }
+    .cIconSection {
+        margin-top: 10px !important;
+    }
+    .servicesSectionContainer {
+        height: 1700px;
+    }
+    .servicesSectionOne,
+    .servicesSectionTwo {
+        height: 800px;
+        margin-top: 10px !important;
+    }
+    .bannerText {
+        font-size: 12px;
+    }
+    .clientSectionContainer {
+        height: 650px;
+    }
+    .mobDropDown {
+        top: 0;
+        width: 150px;
+        height: 300px;
+        bottom: 0;
+        right: 0;
+        display: none;
+        overflow-y: scroll;
+    }
+    .mobMenu:hover .mobDropDown {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobDropDown li {
+        height: 28px;
+        font-size: 12px;
+    }
+    .aboutHeader {
+        font-size: 25px;
+    }
+    .featuresSection {
+        height: 880px;
+    }
+    .dispOne {
+        height: 350px;
+        margin-top: 20px !important;
+    }
+    .clientsBannerDisplay {
+        height: 1200px;
+    }
+    .bannerImages div {
+        height: 200px;
+        margin-top: 20px !important;
+    }
+    .contactInfoContainer {
+        height: 860px;
+    }
+    .contactSectionDisplay {
+        height: 700px;
+    }
+    textarea {
+        width: 100%;
+    }
+}
+
+
+/* TABLETS */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .mobDropDown {
+        top: 0;
+        width: 190px;
+        height: 300px;
+        bottom: 0;
+        right: 0;
+        display: none !important;
+        overflow-y: scroll;
+    }
+    .mobMenu:hover .mobDropDown {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .servicesSectionContainer {
+        height: 2500px;
+    }
+    .serviceSection {
+        margin-top: 30px !important;
+        height: 370px;
+    }
+    .clientSectionContainer {
+        height: 615px;
+    }
+    .featuresSection {
+        height: 755px;
+    }
+    .featuresDisplay {
+        margin-top: 30px !important;
+        height: 580px;
+    }
+    .dispOne {
+        height: 280px;
+    }
+    .clientsBannerDisplay {
+        height: 2275px;
+    }
+    .bannerImages {
+        height: 2200px;
+    }
+    .bannerFive,
+    .bannerFour,
+    .bannerThree,
+    .bannerTwo,
+    .bannerOne {
+        height: 400px;
+        margin-top: 20px;
+    }
+    .contactInfoContainer {
+        height: 770px;
+    }
+}
+
+/* TABLETS-2 */
+@media screen and (min-width: 769px) and (max-width: 992px) { 
+    .mobDropDown {
+        top: 0;
+        width: 190px;
+        height: 300px;
+        bottom: 0;
+        right: 0;
+        display: none !important;
+        overflow-y: scroll;
+    }
+    .mobMenu:hover .mobDropDown {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .servicesSectionContainer {
+        height: 2500px;
+    }
+    .serviceSection {
+        margin-top: 30px !important;
+        height: 370px;
+    }
+    .clientSectionContainer {
+        height: 615px;
+    }
+    .featuresSection {
+        height: 755px;
+    }
+    .featuresDisplay {
+        margin-top: 30px !important;
+        height: 580px;
+    }
+    .dispOne {
+        height: 280px;
+    }
+    .clientsBannerDisplay {
+        height: 2275px;
+    }
+    .bannerImages {
+        height: 2200px;
+    }
+    .bannerFive,
+    .bannerFour,
+    .bannerThree,
+    .bannerTwo,
+    .bannerOne {
+        height: 400px;
+        margin-top: 20px;
+    }
+    .contactInfoContainer {
+        height: 770px;
+    }
+}
+
+/* LAPTOPS AND DESKTOPS */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .sDesc {
+        font-size: 12px;
+    }
+    .mobDropDown {
+        display: none !important;
+    }
+    .mobMenu:hover .mobDropDown {
+        display: flex;
+    }
+    .dispOne {
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .portDropDown {
+        width: 205px;
+    }
+    
+}

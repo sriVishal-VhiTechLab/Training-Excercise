@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContainer col-12 h-auto d-flex flex-column">
+        <!-- WEB HEADER NAVBAR GOES HERE!!!!!!!!!! -->
+        <div class="webHeaderContainer  position-fixed  bg-light col-12 col-sm-12 col-md-12 col-lg-4 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-between">
+            <div class="logoSection d-flex col-11 col-sm-11 col-md-6 cl-lg-6 col-xl-3 col-xxl-3">
+                <div class="logoImage bgi col-2 col-sm-1 col-md-2 col-lg-1 col-xxl-2 col-xl-2"></div>
+                <div class="logoText d-flex flex-column col-7 col-12 hbigText text-dark">ICM SOLUTIONS</a>
+                    <a href="#" class="text-decoration-none d-flex justify-content-end hQuoteText fontWeight">YOUR PARTNER IN BUSSINESS</a>
+                </div>
+            </div>
+            <div class="navSection  col-1 col-sm-1 col-md-2 col-lg-6 col-xl-5 col-xxl-5 d-flex justify-content-center position-relative">
+                <div class="mobMenu">
+                    <a href="#" class=" mt-3  text-decoration-none d-flex align-items-center col-12">
+                        <i class="fas fa-bars text-dark mIcon d-flex d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none align-items-center"></i>
+                    </a>
+                    <div class="mobDropDown position-absolute position-fixed bg-light  d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none border border-dark border-3 align-items-center">
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-house-damage p-2"></i>
+                            <p class="p-1">HOME</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-blog p-2"></i>
+                            <p class="p-1">OUR WEBPAGE</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-desktop p-2"></i>
+                            <p class="p-1">APPS</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-window-maximize p-2"></i>
+                            <p class="p-1">CAREERS</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-id-badge p-2"></i>
+                            <p class="p-1">CONTACT US</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-cart-arrow-down p-2"></i>
+                            <p class="p-1">E-COMMERECE</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-user p-2" p-2></i>
+                            <p class="p-1">OUR TEAM</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-headset p-2"></i>
+                            <p class="p-1">SUPPORT</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-bars p-2"></i>
+                            <p class="p-1">FIND HERE</p>
+                        </li>
+                        <li class="text-dark fontWeight d-flex w-100">
+                            <i class="fas fa-arrow-circle-right p-2"></i>
+                            <p class="p-1">SIGN OUT</p>
+                        </li>
+                    </div>
+                </div>
+                <ul class="d-none h-100 align-items-center nav d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex">
+                    <div class="p-2 bg-primary text-light d-flex flex-column position-relative h-100 d-flex align-items-center homeMenu">
+                        <div class="d-flex col-12">
+                            <p class="fontWeight p-1">HOME</p>
+                            <i class="fas fa-angle-down d-flex d-flex align-items-center  hdownIcon"></i>
+                        </div>
+                        <ul class="homeDropDown bg-primary border border-5 border-warning  position-absolute top-100 flex-column">
+                            <li class="p-2 text-light fontWeight d-flex homeLi">
+                                <i class="fas fa-blog d-flex align-items-center"></i>
+                                <p class="p-1">OUR WEBPAGE</p>
+                            </li>
+                            <li class="p-2 text-light d-flex fontWeight homeLi">
+                                <i class="fas fa-database d-flex align-items-center"></i>
+                                <p class="p-1">DATABASE</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-laptop-medical d-flex align-items-center"></i>
+                                <p class="p-1">CLIENT SIDE</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-laptop-code d-flex align-items-center"></i>
+                                <p class="p-1">OUR TEAM</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-window-maximize d-flex align-items-center"></i>
+                                <p class="p-1">CAREERS</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-book-medical d-flex align-items-center"></i>
+                                <p class="p-1">PORTFOLIO</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-ad d-flex align-items-center"></i>
+                                <p class="p-1">MEDIA</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-id-badge d-flex align-items-center"></i>
+                                <p class="p-1">CONTACT US</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="p-2 h-100 d-flex align-items-center position-relative fontWeight aboutMenu">
+                        <div class="d-flex">
+                            <p class="fontWeight p-1 mt-3">ABOUT US</p>
+                            <i class="fas fa-angle-down d-flex align-items-center abtdownIcon"></i>
+                        </div>
+                        <ul class="aboutDropDown bg-primary border border-5 border-warning  position-absolute top-100 flex-column">
+                            <li class="p-2 text-light fontWeight d-flex homeLi">
+                                <i class="fas fa-blog d-flex align-items-center"></i>
+                                <p class="p-1">SPONSORS</p>
+                            </li>
+                            <li class="p-2 text-light d-flex fontWeight homeLi">
+                                <i class="fas fa-database d-flex align-items-center"></i>
+                                <p class="p-1">TRENDING</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-laptop-medical d-flex align-items-center"></i>
+                                <p class="p-1">MOCKS</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-laptop-code d-flex align-items-center"></i>
+                                <p class="p-1">OUR TEAM</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-window-maximize d-flex align-items-center"></i>
+                                <p class="p-1">CAREERS</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="p-2 h-100 d-flex align-items-center fontWeight servicesMenu position-relative">
+                        <div class="d-flex">
+                            <p class="fontWeight p-1 mt-3">SERVICES</p>
+                            <i class="fas fa-angle-down d-flex sdownIcon d-flex align-items-center"></i>
+                        </div>
+                        <ul class="servicesDropDown bg-primary border border-5 border-warning  position-absolute top-100 flex-column">
+                            <li class="p-2 text-light fontWeight d-flex homeLi">
+                                <i class="fas fa-desktop d-flex align-items-center"></i>
+                                <p class="p-1">OUR APPS</p>
+                            </li>
+                            <li class="p-2 text-light d-flex fontWeight homeLi">
+                                <i class="fas fa-cart-arrow-down d-flex align-items-center"></i>
+                                <p class="p-1">E-COMMERECE</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-laptop-medical d-flex align-items-center"></i>
+                                <p class="p-1">SYSTEMS</p>
+                            </li>
+                            <li class="p-2 text-light fontWeight d-flex homeLi"><i class="fas fa-mobile-alt d-flex align-items-center"></i>
+                                <p class="p-1">MOBILE APPS</p>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="p-2 h-100 d-flex align-items-center fontWeight portMenu">
+                        <div class="d-flex">
+                            <p class="fontWeight p-1 mt-3">PORTFOLIO</p>
+                            <i class="fas fa-angle-down d-flex align-items-center pdownIcon"></i>
+                        </div>
+                        <ul class="portDropDown bg-primary border border-5 border-warning  position-absolute top-100 flex-column">
+                            <li class="p-2 text-light fontWeight d-flex homeLi">
+                                <i class="fas fa-headset d-flex align-items-center"></i>
+                                <p class="p-1">SUPPORT</p>
+                            </li>
+                            <li class="p-2 text-light d-flex fontWeight homeLi">
+                                <i class="fas fa-arrow-alt-circle-right d-flex align-items-center"></i>
+                                <p class="p-1">SIGN OUT</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- WEB BANNER GOES HERE -->
+        <div class="bannerContainer bgi d-flex align-items-end col-12 #top">
+            <div class="bannerText col-10 d-flex">
+                <p class="text-light bText">WE HELP CLIENTS ATTAIN THEIR BUSSINESS GOALS BY <b>DEVOLOPING, DESIGNING, INTEGRATING AND SUPPORTING</b> MISSION CRITICAL APPLICATIONS AND SYSTEMS.</p>
+            </div>
+        </div>
+        <!-- ABOUT INFO CONTAINER -->
+        <div class="aboutInfoContainer col-12">
+            <div class="aboutHeader d-flex align-items-center col-12 justify-content-center"><b class="p-2">ABOUT</b> ICM SOLUTIONS</div>
+            <div class="aboutText  col-11 d-flex justify-content-center align-content-center m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed dolore non itaque. Tempora, dicta. Tenetur in modi, iure tempora fuga quae, facere autem explicabo quas, provident molestiae laboriosam odio nostrum ipsa eligendi. Ad corporis
+                aliquam omnis dolorem doloribus incidunt.</div>
+        </div>
+        <!-- SERVICES SECTION GOES HERE -->
+        <div class="servicesSectionContainer col-12 d-flex flex-column justify-content-lg-around justify-content-xxl-around justify-content-xl-around">
+            <!-- HEADER  -->
+            <div class="servicesHeader col-12 d-flex align-items-center justify-content-center">
+                <b class="p-2">OUR</b>SERVICES
+            </div>
+            <div class="servicesSectionOne d-flex col-12  justify-content-between flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+                <div class="serviceSection d-flex  col-11 col-sm-11 col-md-11 col-lg-3 col-xl-3 col-xxl-3  m-auto">
+                    <div class="iconSectionOne bg-primary d-flex align-items-center justify-content-center text-light col-2"><i class="fas fa-desktop"></i></div>
+                    <div class="textSectionOne   bg-light">
+                        <div class="sHeaderText p-2 fontWeight"> Applications</div>
+                        <div class="sDesc p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam amet commodi iure officiis quaerat sapiente blanditiis corporis architecto officia praesentium.</div>
+                    </div>
+                </div>
+                <div class="serviceSection d-flex col-11 col-sm-11 col-md-11 col-lg-3 col-xl-3 col-xxl-3 m-auto">
+                    <div class="iconSectionOne bg-primary d-flex align-items-center justify-content-center text-light col-2"><i class="fas fa-retweet"></i></div>
+                    <div class="textSectionOne   bg-light">
+                        <div class="sHeaderText p-2 fontWeight">System Integration</div>
+                        <div class="sDesc p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam amet commodi iure officiis quaerat sapiente blanditiis corporis architecto officia praesentium.</div>
+                    </div>
+                </div>
+                <div class="serviceSection d-flex col-11 col-sm-11 col-md-11 col-lg-3 col-xl-3 col-xxl-3 m-auto">
+                    <div class="iconSectionOne bg-primary d-flex align-items-center justify-content-center text-light col-2"> <i class="fas fa-search"></i></div>
+                    <div class="textSectionOne  bg-light">
+                        <div class="sHeaderText p-2 fontWeight">SEO SERVICES</div>
+                        <div class="sDesc p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam amet commodi iure officiis quaerat sapiente blanditiis corporis architecto officia praesentium.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="servicesSectionTwo d-flex col-12 justify-content-between flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+
+                <div class="serviceSection d-flex col-11 col-sm-11 col-md-11 col-lg-3 col-xl-3 col-xxl-3   m-auto">
+                    <div class="iconSectionTwo d-flex align-items-center justify-content-center text-light bg-primary col-2"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="textSectionTwo bg-light ">
+                        <div class="sHeaderText p-2 fontWeight">E-Commerce</div>
+                        <div class="sDesc p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam amet commodi iure officiis quaerat sapiente blanditiis corporis architecto officia praesentium.</div>
+                    </div>
+                </div>
+                <div class="serviceSection d-flex col-11 col-sm-11 col-md-11 col-lg-3 col-xl-3 col-xxl-3 m-auto">
+                    <div class="iconSectionTwo d-flex align-items-center justify-content-center bg-primary text-light col-2"><i class="fas fa-database"></i></div>
+                    <div class="textSectionTwo bg-light ">
+                        <div class="sHeaderText p-2 fontWeight">Data Analysis</div>
+                        <div class="sDesc p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam amet commodi iure officiis quaerat sapiente blanditiis corporis architecto officia praesentium.</div>
+                    </div>
+                </div>
+                <div class="serviceSection d-flex col-11 col-sm-11 col-md-11 col-lg-3 col-xl-3 col-xxl-3  m-auto">
+                    <div class="iconSectionTwo d-flex align-items-center justify-content-center bg-primary text-light col-2"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="textSectionTwo bg-light ">
+                        <div class="sHeaderText d-flex  p-2 fontWeight">Mobile Applications</div>
+                        <div class="sDesc p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam amet commodi iure officiis quaerat sapiente blanditiis corporis architecto officia praesentium.</div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- CLIENTS SECTIONS GOES HERE!!!!!!!!!!!!!!! -->
+        <div class="clientSectionContainer col-12 d-flex flex-column flex-md-column flex-sm-column flex-lg-row flex-xl-row flex-xxl-row">
+            <div class="cSectionOne col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="headerTextOne col-12 col-sm-12 d-flex align-items-center justify-content-center p-3"><b class="p-2">OUR</b>SKILLS</div>
+                <div class="cGraphsSection d-flex flex-column col-11 col-sm-11 col-md-11 col-lg-8 col-xl-8 col-xxl-8 m-2">
+                    <div class="one m-2">WEB DESIGNING 82%</div>
+                    <div class="two m-2">SYSTEM ANALYST 62%</div>
+                    <div class="three m-2">E-COMMERECE 90%</div>
+                    <div class="four m-2">INTEGRATION 75%</div>
+                </div>
+            </div>
+            <div class="cSectionTwo col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="headerTextTwo col-12 d-flex justify-content-center align-items-center"><b class="p-4">OUR</b>CLIENT SAYS</div>
+                <div class="cContentSection col-12">
+                    <p class="col-10 m-sm-auto m-md-auto  m-lg-0 m-xl-0 m-xxl-0 mt-lg-4 mt-xl-4 mt-xxl-4  m-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero omnis quae molestias, molestiae harum at sunt ex debitis explicabo eaque odio eos deserunt nam quo eligendi neque soluta veniam laborum.</p>
+                    <h5 class="fontWeight col-11 mt-sm-4 mt-3 m-auto mt-xl-4 mt-xxl-4  mt-md-3 m-lg-0 m-xl-0 m-xxl-0 p-md-4">JOE BIEN 20 November 1942 (age 79 years)</h5>
+                </div>
+                <div class="cIconSection  d-flex align-items-end justify-content-end">
+                    <i class="fas fa-chevron-left text-primary cIcon d-flex align-items-center justify-content-center m-1"></i>
+                    <i class="fas fa-chevron-right text-primary cIcon d-flex align-items-center justify-content-center m-1"></i>
+                </div>
+            </div>
+        </div>
+        <!-- FEATURES SECTION GOES HERE -->
+        <div class="featuresSection bgi d-flex flex-column col-12">
+            <div class="featuresHeader d-flex text-light justify-content-center align-items-center col-12"><b class="p-2">OUR</b>FEATURES</div>
+            <div class="featuresDisplay col-12 d-flex justify-content-evenly flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row">
+                <div class="dispOne col-11 col-sm-11 col-md-11 col-lg-5 col-xl-5 col-xxl-5  mAuto bg-light">
+                    <h5><b class="mt-3 d-flex align-items-center  justify-content-center">CLOUD COMPUTING</b></h5>
+                    <p class="col-11 m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt nihil architecto provident dolore fugit cum debitis! Inventore assumenda iste impedit quos reiciendis hic incidunt fugiat? Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Laboriosam nam nulla eius. Totam, ut perspiciatis?</p>
+                </div>
+                <div class="dispOne col-11 col-sm-11 col-md-11 col-lg-5 col-xl-5 col-xxl-5 mAuto bg-light" id="DispOne">
+                    <h5><b class="mt-3 d-flex align-items-center  justify-content-center">SERVER AND MAINTENENCE</b></h5>
+
+                    <p class="col-11 m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolorum laudantium. Quidem, ad aspernatur? Debitis ipsa nihil sit voluptas aliquam modi nemo tempore, obcaecati deserunt ipsum esse soluta dolore dicta aut! Unde
+                        magnam quisquam illum iusto, distinctio possimus iste dolor!</p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- CLIENT BANNER DISPLAY HERE!!!!!!!!!!!!! -->
+        <div class="clientsBannerDisplay col-12 d-flex  flex-column">
+            <div class="clientsHeader col-12 d-flex justify-content-center align-items-center"><b class="p-2">OUR</b> CLIENTS</div>
+            <div class="bannerImages d-flex w-100 justify-content-evenly flex-column flex-sm-column flex-md-column flex-lg-row flex-row col-10 m-auto">
+                <div class="bannerOne bgi col-10 m-auto m-sm-auto m-md-auto m-lg-0 m-xl-0 m-xxl-0col-sm-10 col-md-10 col-lg-2 col-xl-2 col-xxl-2"></div>
+                <div class="bannerTwo bgi col-10 m-auto m-sm-auto m-md-auto m-lg-0 m-xl-0 m-xxl-0col-sm-10 col-md-10 col-lg-2 col-xl-2 col-xxl-2"></div>
+                <div class="bannerThree bgi col-10 m-auto m-sm-auto m-md-auto m-lg-0 m-xl-0 m-xxl-0col-sm-10 col-md-10 col-lg-2 col-xl-2 col-xxl-2"></div>
+                <div class="bannerFour bgi col-10 m-auto m-sm-auto m-md-auto m-lg-0 m-xl-0 m-xxl-0col-sm-10 col-md-10 col-lg-2 col-xl-2 col-xxl-2"></div>
+                <div class="bannerFive bgi col-10 m-auto m-sm-auto m-md-auto m-lg-0 m-xl-0 m-xxl-0col-sm-10 col-md-10 col-lg-2 col-xl-2 col-xxl-2"></div>
+            </div>
+        </div>
+        <!-- CONTACT INFO GOES HERE!!!!!!!!!!!! -->
+        <div class="contactInfoContainer bgi col-12 d-flex flex-column">
+            <div class="contactHeader mt-3 col-12 d-flex align-items-center justify-content-center text-light">CONTACT INFORMATION</div>
+            <div class="contactSectionDisplay col-11 col-sm-11 col-md-11 col-lg-11 m-auto justify-content-between  d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+                <div class="contactSectionOne text-light col-12 col-sm-12 col--md-12 col-lg-7 col-xl-5 col-xxl-7">
+                    <div class="contactSectionDetails col-12  d-flex flex-column justify-content-center m-auto mt-5">
+                        <div class="d-flex col-12">
+                            <i class="fas fa-map-marker-alt m-2 fontWeight"></i>
+                            <p class="fontWeight ">Jawaharlal Nehru Rd, Thirumangalam, Anna Nagar, Chennai, Tamil Nadu 600040</p>
+                        </div>
+                        <div class="d-flex col-12">
+                            <i class="fas fa-phone-alt m-2 fontWeight"></i>
+                            <p class="fontWeight">+000 34567890</p>
+                        </div>
+                        <div class="d-flex  col-12">
+                            <i class="fas fa-mobile-alt m-2 fontWeight"></i>
+                            <p class="fontWeight">+999 234567890</p>
+                        </div>
+                        <div class="d-flex col-12">
+                            <i class="fas fa-envelope m-2 fontWeight"></i>
+                            <p class="fontWeight">aaa@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="contactSectionTwo col-12  col-sm-12 col-md-12 col-lg-5 col-xl-7 col-xxl-5">
+                    <div class="detailsContainer d-flex col-12 mt-4 flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+                        <div class="nameArea d-flex flex-column col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                            <p class="text-light">NAME</p>
+                            <textarea name="" id="" cols="25" rows="1" class="col-12 col-xxl-11 col-xl-11 col-lg-10"></textarea>
+                        </div>
+                        <div class="emailArea d-flex flex-column col-12 col-sm-12 col-md-12 col-lg-7 col-xl-5 col-xxl-6">
+                            <p class="text-light">EMAIL</p>
+                            <textarea name="" id="" cols="25" rows="1" class="col-12 col-xxl-11 col-xl-11 col-lg-10"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="msgContainer p-1 fontWeight col-xxl-12">
+                        <p class="text-white ">MESSAGE</p>
+                        <textarea name="" id="" cols="75" rows="9" class="col-12 col-sm-11 col-md-12 col-lg-12"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end col-12 col-md-12 col-xxl-11 m-2 p-2 m-auto">
+                        <button>SEND MESSAGE</button>
+                    </div>
+                </div>
+            </div>
+            <!-- MAPS CONTAINER -->
+            <div class="mapsDisplayContainer d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block col-12">
+                <iframe class="col-12 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.608616104741!2d80.20724191424169!3d12.996866390839338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9a7b20cb13%3A0xe2371e29825f5c8f!2sAjira!5e0!3m2!1sen!2sin!4v1643098249657!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <!-- FOOTER SECTION CONTAINER -->
+            <div class="footerSectionContainer  d-none d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex w-100 bg-primary text-light justify-content-between">
+                <div class="fTextSection h-75 d-flex align-items-center m-2 fontWeight">COPYRIGHTS 2018 ICM SOLUTIONS. ALL RIGHTS RESERVED</div>
+                <div class="fIconSection h-100 align-items-center d-flex justify-content-evenly col-2 col-lg-4 col-xl-2 col-xxl-2">
+                    <a href="#top" class="text-decoration-none"><i class="fas fa-angle-up text-warning bg-dark  goTop d-flex align-items-center justify-content-center"></i></a>
+                    <a href="https://www.facebook.com" class="text-decoration-none"> <i class="fab fa-facebook text-primary bg-light d-flex justify-content-center align-items-center fIcon"></i></a>
+                    <a href="https://www.twitter.com/" class="text-decoration-none"><i class=" fab fa-twitter bg-light d-flex justify-content-center align-items-center text-primary fIcon"></i></a>
+                    <a href="https://www.google.com/" class="text-decoration-none"><i class="text-danger fab fa-google-plus bg-light d-flex justify-content-center align-items-center text-primary fIcon"></i></a>
+                    <a href="https://www.linkedin.com/" class="text-decoration-none"><i class="fab fa-linkedin-in bg-light d-flex justify-content-center align-items-center text-primary fIcon"></i></a>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

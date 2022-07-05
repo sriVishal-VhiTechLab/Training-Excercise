@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainContainer h-auto w-100 col-12">
+        <!-- HEADER NAVBAR GOES HERE!!!!!! -->
+        <div class="headerMenuBarContainer col-12 col-sm-12 d-flex justify-content-between bgi" id="top">
+            <!-- ICONS GOES HERE!!!!!!! (LEFT SECTION)-->
+            <div
+                class="hNavIcons col-6 col-sm-4 col-md-3 col-xl-2 col-lg-2 d-flex align-items-center justify-content-between p-1">
+
+                <a href="" class="text-decoration-none">
+                    <i class="fab fa-facebook-f hicon d-flex justify-content-center align-items-center text-light"></i>
+
+                </a>
+                <a href="" class="text-decoration-none">
+                    <i class="fab fa-twitter hicon d-flex justify-content-center align-items-center text-light"></i>
+
+                </a><a href="" class="text-decoration-none">
+                    <i class="fab fa-pinterest-p hicon d-flex justify-content-center align-items-center text-light"></i>
+
+                </a><a href="" class="text-decoration-none">
+                    <i class="fab fa-instagram hicon d-flex justify-content-center align-items-center text-light"></i>
+
+                </a><a href="" class="text-decoration-none">
+                    <i class="fab fa-tumblr hicon d-flex justify-content-center align-items-center text-light"></i>
+
+                </a><a href="" class="text-decoration-none">
+                    <i class="fas fa-bell hicon d-flex justify-content-center align-items-center text-light"></i>
+
+                </a>
+
+
+            </div>
+            <!-- HEADER MENU RIGHT SIDE GOES HERE -->
+            <div
+                class="headerMenuRightSection d-flex col-6 col-md-3 col-xl-2 col-lg-2 justify-content-around align-items-center">
+                <div class="sectionOne d-flex text-light">
+                    <p class="text-light mt-3 p-2">English</p>
+                    <i class="fas fa-chevron-down text-light d-flex align-items-center"></i>
+                </div>
+                <div class="sectionTwo d-flex text-light">
+                    <p class="text-light mt-3 p-2">INR</p>
+                    <i class="fas fa-chevron-down text-light d-flex align-items-center"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR TWO GOES HERE!!!!!!!!!! -->
+        <div
+            class="navBarTwoContainer justify-content-md-between justify-content-sm-between col-12 col-sm-12 d-flex position-sticky top-0 bg-light">
+            <!-- MOBILE SCREENS MENU ICON SECTION -->
+            <div
+                class="mobMenu col-1 d-flex d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none justify-content-center position-relative">
+                <a href="" class="text-decoration-none d-flex d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none">
+                    <i class="fas fa-bars text-light d-flex align-items-center text-dark"></i>
+                </a>
+                <div class="mobDropDown position-absolute text-decoration-none bg-dark text-light">
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-house-damage col-2 d-flex align-items-center"></i>
+                        <p class="col-10 d-flex">HOME</p>
+
+                    </li>
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-at col-2 d-flex align-items-center"></i>
+                        <p class="col-10">ABOUT US</p>
+
+                    </li>
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-shopping-cart col-2 d-flex align-items-center"></i>
+                        <p class="col-10 ">PRODUCTS</p>
+
+                    </li>
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-user col-2 d-flex align-items-center"></i>
+                        <p class="col-10">MEN</p>
+
+                    </li>
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-user-nurse col-2 d-flex align-items-center"></i>
+                        <p class="col-10">WOMEN</p>
+
+                    </li>
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-headset col-2 d-flex align-items-center"></i>
+                        <p class="col-10">SUPPORT</p>
+
+                    </li>
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-id-card col-2 d-flex align-items-center"></i>
+                        <p class="col-10">PRIVACY POLICY</p>
+
+                    </li>
+                    <li class="list-style-none d-flex col-12 mt-3 m-3">
+                        <i class="fas fa-arrow-alt-circle-right col-2 d-flex align-items-center"></i>
+                        <p class="col-10">SIGN OUT</p>
+
+                    </li>
+                </div>
+            </div>
+            <!-- WEBLOGO GOES HERE -->
+            <a href="button.html" class="webLogoContainer col-7 col-sm-5 col-md-6 col-lg-2 col-xl-2 col-xxl-2 bgi"></a>
+            <!-- WEB NAVBAR GOES HERE!! -->
+            <div
+                class="hMainMenu col-8  d-none d-sm-none d-md-none justify-content-center d-lg-flex d-xl-flex d-xxl-flex ">
+                <ul class="h-100  d-flex col-9 justify-content-center">
+                    <li class="col-2 h-100 align-items-center d-flex justify-content-center fontWeight">
+
+                        DEMO
+                    </li>
+                    <li
+                        class="col-2 h-100 align-items-center d-flex justify-content-center position-relative fontWeight">
+
+                        SHOP
+                        <span
+                            class="badge  d-flex justify-content-center align-items-center position-absolute text-light right-0 bg-info new">NEW</span>
+                    </li>
+                    <li class="col-2 h-100 align-items-center d-flex justify-content-center fontWeight">
+
+                        PRODUCTS
+
+                    </li>
+                    <li
+                        class="col-2 h-100 align-items-center d-flex justify-content-center position-relative fontWeight">
+
+                        PAGES
+                        <span
+                            class="badge  d-flex justify-content-center align-items-center position-absolute text-light right-0 bg-danger hot">HOT!</span>
+                    </li>
+                    <li class="col-2 h-100 align-items-center d-flex justify-content-center fontWeight">
+
+                        PORTFOLIO
+
+                    </li>
+                    <li class="col-2 h-100 align-items-center d-flex justify-content-center fontWeight">
+
+                        LOOKBOOK
+
+                    </li>
+                    <li class="col-2 h-100 align-items-center d-flex justify-content-center fontWeight">
+
+                        BLOG
+
+                    </li>
+                    <li
+                        class="col-2 h-100 align-items-center d-flex justify-content-center position-relative fontWeight">
+
+                        BUY
+                        <span
+                            class="badge  d-flex justify-content-center align-items-center position-absolute text-danger right-0 bg-warning sale">SALE!</span>
+
+                    </li>
+
+                </ul>
+            </div>
+            <!-- RIGHT SIDE ICONS (NAVBAR TWO) -->
+            <div
+                class="htIcons col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center justify-content-evenly">
+                <div class="iconContainer col-1">
+                    <a href="" class="text-decoration-none">
+                        <i class="fas fa-search text-dark"></i></a>
+                </div>
+                <div class="iconContainer col-1">
+                    <a href="">
+                        <i class="far fa-user text-dark position-relative">
+                            <span
+                                class="iBadge position-absolute bg-dark text-light d-flex justify-content-center align-items-center">3</span>
+                        </i>
+                    </a>
+                </div>
+                <div class="iconContainer position-relative col-1">
+                    <a href="">
+                        <i class="far fa-heart text-dark position-relative">
+                            <span
+                                class="iBadge position-absolute bg-dark text-light d-flex justify-content-center align-items-center">3</span>
+                        </i>
+                    </a>
+                    <!-- <span class="position-absolute bg-dark text-white">0</span> -->
+                </div>
+                <div class="iconContainer position-relative col-1">
+                    <a href="login10.html">
+                        <i class="fas fa-arrow-circle-right text-dark"></i>
+                    </a>
+                    <!-- <span class="position-absolute bg-dark text-white">0</span> -->
+                </div>
+            </div>
+        </div>
+        <!-- HEADER GALLERY GOES HERE!!!!!!! -->
+        <div
+            class="hGalleryContainer col-12 d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+            <div class="hImgOne col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 bgi d-flex align-items-end">
+                <div class="imgBanner col-12 bg-dark d-flex flex-column">
+                    <div class="col-12 text-light d-flex justify-content-center mt-2 fontWeight">
+                        <p><b style="color: gray;">By</b> HAPPY CUSTOMERS <b style="color: rgb(99, 94, 94);">in</b>
+                            FASHION, TRAVEL 0 COMMENTS</p>
+                    </div>
+                    <div class="col-12 text-light d-flex justify-content-center fontWeight">7 THINGS YOU CANT WEAR
+                        DAILY</div>
+                    <div class="col-12 text-light d-flex justify-content-center fontWeight date"><b
+                            style="color: gray;">MARCH 08 2018</b></div>
+                </div>
+            </div>
+            <div class="hImgTwo col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 bgi d-flex align-items-end">
+                <div class="imgBanner col-12 bg-dark d-flex flex-column">
+                    <div class="col-12 text-light d-flex justify-content-center mt-2 fontWeight">
+                        <p><b style="color: gray;">By</b> HAPPY CUSTOMERS <b style="color: rgb(99, 94, 94);">in</b>
+                            FASHION, TRAVEL 0 COMMENTS</p>
+                    </div>
+                    <div class="col-12 text-light d-flex justify-content-center fontWeight">7 THINGS YOU CANT WEAR
+                        DAILY</div>
+                    <div class="col-12 text-light d-flex justify-content-center fontWeight date"><b
+                            style="color: grey;">MARCH 08 2018</b></div>
+                </div>
+            </div>
+            <div class="hImgThree col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 bgi d-flex align-items-end">
+                <div class="imgBanner col-12 bg-dark d-flex flex-column">
+                    <div class="col-12 text-light d-flex justify-content-center mt-2 fontWeight">
+                        <p><b style="color: gray;">By</b> HAPPY CUSTOMERS <b style="color: rgb(99, 94, 94);">in</b>
+                            FASHION, TRAVEL 0 COMMENTS</p>
+                    </div>
+                    <div class="col-12 text-light d-flex justify-content-center fontWeight">7 THINGS YOU CANT WEAR
+                        DAILY</div>
+                    <div class="col-12 text-light d-flex justify-content-center fontWeight date"><b
+                            style="color: grey;">MARCH 08 2018</b></div>
+                </div>
+            </div>
+        </div>
+        <!-- MAIN CONTENT STARTS HERE -->
+        <div class="mainContentContainer h-auto col-12 col-sm-11 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex">
+            <!-- MAIN SECTION ONE (LEFT SIDE CONTENT GOES HERE!!!!!!!!!!) -->
+            <div
+                class="mainContentLeftSectionContainer mt-4 col-12 col-sm-11 col-md-11 col-lg-9 col-xl-9 col-xxl-9 h-auto d-flex flex-column">
+                <div class="mainContentImageSection m-md-4 col-11 col-sm-12 col-md-12 col-lg-11 col-xl-11 col-xxl-11">
+                    <div class="imgOne bgi col-12 d-flex align-items-end">
+                        <div class="imgQuote bg-dark col-10  d-flex flex-column justify-content-center">
+                            <div class="col-12 text-light d-flex justify-content-center mt-2 fontWeight">
+                                <p><b style="color: gray;">By</b> HAPPY CUSTOMERS <b
+                                        style="color: rgb(99, 94, 94);">in</b> FASHION, TRAVEL 0 COMMENTS</p>
+
+                            </div>
+                            <div class="col-12 text-light d-flex justify-content-center">7 THINGS YOU CANT WEAR
+                                DAILY</div>
+                            <div class="col-12 text-light d-flex justify-content-center fontWeight date"><b
+                                    style="color: gray;">
+                                    MARCH 08 2018</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textSection m-3 d-flex flex-column">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusantium, quae suscipit? Placeat autem quia quaerat aspernatur iste voluptates cumque
+                        illo incidunt amet debitis qui mollitia iure, soluta rerum facere provident est sunt excepturi
+                        magnam, optio doloremque deserunt dolores. Corrupti, optio.
+                        <a href="button.html">
+                            <button class="col-5 col-sm-5 col-md-3 col-lg-2 col-xl-2 col-xxl-2 mt-3"
+                                style="padding: 10px; font-size: 13px;">READ MORE</button>
+
+                        </a>
+
+                    </div>
+                </div>
+                <div class="mainContentImageSection m-md-4 col-11 col-sm-12 col-md-12 col-lg-11 col-xl-11 col-xxl-11">
+                    <div class="imgTwo bgi col-12 d-flex align-items-end">
+                        <div class="imgQuote bg-dark col-10  d-flex flex-column justify-content-center">
+                            <div class="col-12 text-light d-flex justify-content-center mt-2 fontWeight">
+                                <p><b style="color: gray;">By</b> HAPPY CUSTOMERS <b
+                                        style="color: rgb(99, 94, 94);">in</b> FASHION, TRAVEL 0 COMMENTS</p>
+
+                            </div>
+                            <div class="col-12 text-light d-flex justify-content-center"
+                                style=" font-family: 'Arvo', serif;">7 THINGS YOU CANT WEAR
+                                DAILY</div>
+                            <div class="col-12 text-light d-flex justify-content-center fontWeight date"><b
+                                    style="color: grey;">
+                                    MARCH 08 2018
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textSection m-3 d-flex flex-column">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusantium, quae suscipit? Placeat autem quia quaerat aspernatur iste voluptates cumque
+                        illo incidunt amet debitis qui mollitia iure, soluta rerum facere provident est sunt excepturi
+                        magnam, optio doloremque deserunt dolores. Corrupti, optio.
+
+                        <a href="button.html">
+                            <button class="col-5 col-sm-5 col-md-3  col-lg-2 col-xl-2 col-xxl-2 mt-3"
+                                style="padding: 10px; font-size: 13px;">READ MORE</button>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="mainContentImageSection m-md-4 col-11 col-sm-12 col-md-12 col-lg-11 col-xl-11 col-xxl-11">
+                    <div class="imgThree bgi col-12 d-flex align-items-end">
+                        <div class="imgQuote bg-dark col-10  d-flex flex-column justify-content-center">
+                            <div class="col-12 text-light d-flex justify-content-center mt-2 fontWeight">
+                                <p><b style="color: gray;">By</b> HAPPY CUSTOMERS <b
+                                        style="color: rgb(99, 94, 94);">in</b> FASHION, TRAVEL 0 COMMENTS</p>
+
+                            </div>
+                            <div class="col-12 text-light d-flex justify-content-center">7 THINGS YOU CANT WEAR
+                                DAILY</div>
+                            <div class="col-12 text-light d-flex justify-content-center fontWeight date"><b
+                                    style="color: grey;">MARCH 08 2018</b>
+                            </div>
+                        </div>
+                    </div>
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap"
+                        rel="stylesheet">
+                    <div class="textSection m-3 d-flex flex-column">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusantium, quae suscipit? Placeat autem quia quaerat aspernatur iste voluptates cumque
+                        illo incidunt amet debitis qui mollitia iure, soluta rerum facere provident est sunt excepturi
+                        magnam, optio doloremque deserunt dolores. Corrupti, optio.
+
+                        <a href="button.html" class="text-decoration-none">
+                            <button class="col-5 col-sm-5 col-md-3 col-lg-2 col-xl-2 col-xxl-2 mt-3"
+                                style="padding: 10px; font-size: 13px;">READ MORE</button>
+
+                        </a>
+                    </div>
+
+                </div>
+                <div class="hrContainer col-9 d-flex mt-2 justify-content-center align-items-center">
+                    <p class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-evenly">
+                        <a href="" class="text-decoration-none  text-warning">1</a><a href=""
+                            class="text-decoration-none text-dark">2</a><a href=""
+                            class="text-decoration-none text-dark">NEXT</a>
+                    </p>
+                </div>
+
+            </div>
+            <hr>
+            <!-- MAIN SECTION TWO (RIGHT SIDE CONTENT GOES HERE!!!!!!!!!!) -->
+            <div
+                class="mainContentRightSectionContainer d-none d-sm-none d-md-none d-lg-flex flex-column d-xl-flex d-xxl-flex mt-5 col-3">
+                <!-- SEARCH CONTAINER GOES HERE!!!!!!!! -->
+                <div class="searchContainer col-8 d-flex flex-column">
+                    <div class="header col-2 border-bottom border-dark">SEARCH</div>
+                    <a href="" class="text-decoration-none d-flex mt-4 align-items-center col-12">
+                        <input type="text" placeholder="Search ..." class="bg-transparent h-75 m-3 col-6">
+                        <div class="bg-dark  d-flex align-items-center justify-content-center lSearchLabel text-light searchLabel"
+                            style="width: 80px; font-size: 10px;">
+                            SEARCH</div>
+
+                    </a>
+                </div>
+                <!-- CATEGORIES CONTAINER!!!!! -->
+                <div class="categContainer col-8 d-flex flex-column">
+                    <div class="header col-3 border-bottom border-dark">CATEGORIES</div>
+                    <a href="" class="text-decoration-none categBox mt-4">
+                        <li class="m-1 text-dark">TRENDING (8)</li>
+                        <li class="m-1 text-dark">FASHION (7)</li>
+                        <li class="m-1 text-dark">NEWS (2)</li>
+                        <li class="m-1 text-dark">MEN (9)</li>
+                        <li class="m-1 text-dark">WOMEN (4)</li>
+                        <li class="m-1 text-dark">PRODUCTS (6)</li>
+                    </a>
+                </div>
+                <!-- INSTA GRID CONTAINER HERE!!!!!!!!! -->
+                <div class="instaContainer col-10 d-flex flex-column">
+                    <div class="header col-3 border-bottom border-dark">INSTAGRAM</div>
+                    <div class="instaGrid col-12">
+                        <a href="" class="d-grid grid col-12 mt-3">
+                            <div class="instaImage1 border border-dark bgi"></div>
+                            <div class="instaImage2 border border-darkbgi"></div>
+                            <div class="instaImage3 border border-dark bgi"></div>
+                            <div class="instaImage4 border border-dark bgi"></div>
+                            <div class="instaImage5 border border-dark bgi"></div>
+                            <div class="instaImage6 border border-dark bgi"></div>
+                            <div class="instaImage7 border border-dark bgi"></div>
+                            <div class="instaImage8 border border-dark bgi"></div>
+                            <div class="instaImage9 border border-dark bgi"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- TAGS SECTION -->
+                <div class="tagsContainer col-9 d-flex flex-column">
+                    <div class="header border-bottom border-dark col-2">HASHTAGS</div>
+                    <div class="tagsDisplay d-flex justify-content-evenly mt-3 col-12">
+                        <div
+                            class="border border-1 border-dark d-flex align-items-center justify-content-center col-3 p-2">
+                            BEAUTY</div>
+                        <div
+                            class="border border-1 border-dark d-flex align-items-center justify-content-center col-4 p-2">
+                            FASHION</div>
+                        <div
+                            class="border border-1 border-dark d-flex align-items-center justify-content-center col-4 p-2">
+                            TRENDING</div>
+                        <div class="border border-1 border-dark d-flex align-items-center justify-content-center col-3">
+                            FOOD</div>
+                        <div class="border border-1 border-dark d-flex align-items-center justify-content-center col-5">
+                            STREET STYLE</div>
+                        <div class="border border-1 border-dark d-flex align-items-center justify-content-center col-3">
+                            STYLE</div>
+                        <div class="border border-1 border-dark d-flex align-items-center justify-content-center col-4">
+                            TRAVEL</div>
+                        <div class="border border-1 border-dark d-flex align-items-center justify-content-center col-7">
+                            TRENDING</div>
+                    </div>
+
+
+                </div>
+                <!-- DISPLAY PIC SECTION -->
+                <div class="blogContainer col-10 d-flex flex-column">
+                    <div class="header col-1 border-bottom border-dark">ONSALE!</div>
+                    <div class="blogs d-flex flex-column mt-4 mt-lg-2 mt-xl-4 mt-xxl-4">
+                        <div class="d-flex col-10 mt-4 mt-lg-2 mt-xl-4 mt-xxl-4">
+                            <div class="pic1 bgi col-4 "></div>
+                            <div class="col-8 bLabel">
+                                <p class="m-1 fontWeight">SPORTY T-SHIRT</p>
+                                <p class="m-1 m-lg-0 p-lg-2">RS. 2390.990</p>
+                            </div>
+                        </div>
+                        <div class="d-flex col-10 mt-4">
+                            <div class="pic2  bgi col-4"></div>
+                            <div class="col-8 bLabel">
+                                <p class="m-1 fontWeight">TRENDING</p>
+                                <p class="m-1">RS.890.89</p>
+                            </div>
+                        </div>
+                        <div class="d-flex col-10 mt-4">
+                            <div class="pic3 bgi col-4 "></div>
+                            <div class="col-8 bLabel">
+                                <p class="m-1 fontWeight">JACKETS</p>
+                                <p class="m-1">RS.7869.990</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- RECENT POSTS GOES HERE!!! -->
+                <div class="recentContainer col-10 d-flex flex-column">
+                    <div class="header col-7 col-lg-8">RECENT POSTS
+                        <hr>
+                    </div>
+
+                    <div class="recPara mt-2  col-12 d-flex flex-column">
+                        <div class="mt-3">SPRING FASHION TRENDING ON <br> 08 MARCH 2018</div>
+                        <div class="mt-3">EASIEST WAY TO COME IN TOP <br> 08 MARCH 2018</div>
+                        <div class="mt-3">FRESH YOUR ROOM WITH WHITE VASE<br> 08 MARCH 2018</div>
+                        <div class="mt-3">HOW TO WEAR PAINFUL HEELS WITHOUT PAIN <br> 08 MARCH 2018</div>
+                        <div></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- FOOTER STARTS HERE -->
+        <div class="mainContentFooterContainer bg-dark bgi col-12 d-flex">
+            <div
+                class="footerDisplay col-11 col-md-12 col-lg-11 d-flex flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row flex-xxl-row">
+                <a href="" class="text-decoration-none col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-3">
+
+                    <div
+                        class="footerDivOne d-flex flex-column align-items-center align-itmes-sm-center align-items-md-center align-items-lg-start mt-md-3 mt-lg-0 col-12">
+                        <div class="dOneHeader text-light">GECKHO</div>
+                        <div
+                            class="dOLineOne d-flex col-8 col-sm-8  col-md-7 col-lg-12 col-xl-12 col-xxl-12 justify-content-lg-start justify-content-md-center">
+                            <i class="fas fa-suitcase text-light  mt-4"></i>
+                            <div
+                                class="text-light col-12 col-sm-7  col-md-4 col-lg-11 col-xl-11 col-xxl-11 mt-4 m-2 add">
+                                Jawaharlal Nehru Rd
+                                <br>Thirumangalam,<br>
+                                Tamil
+                                Nadu 600040
+                            </div>
+                        </div>
+                        <div
+                            class="dOLineTwo d-flex col-8 col-sm-8 col-md-7 col-lg-12 col-xl-12 col-xxl-12 justify-content-lg-start  justify-content-md-center">
+                            <i class="fas fa-envelope text-light d-flex align-items-center"></i>
+                            <div class="text-light col-11 col-md-4 m-2">email@email.com</div>
+                        </div>
+                        <div
+                            class="dOLineTwo d-flex col-8 col-sm-8 col-md-7 col-lg-12 col-xl-12 col-xxl-12 justify-content-lg-start  justify-content-md-center">
+                            <i class="fas fa-phone-alt text-light d-flex align-items-center"></i>
+                            <div class="text-light col-11 col-md-4 m-2">+234567890</div>
+                        </div>
+                        <div class="dOLineTWo d-flex col-8 mt-4 col-md-3 col-xl-9 col-lg-12 justify-content-evenly">
+                            <i
+                                class="fab fa-facebook-f  d-flex justify-content-center align-items-center text-light col-1"></i>
+                            <i
+                                class="fab fa-twitter  d-flex justify-content-center align-items-center text-light col-2"></i>
+                            <i
+                                class="fab fa-pinterest-p  d-flex justify-content-center align-items-center text-light col-2"></i>
+                            <i
+                                class="fab fa-instagram  d-flex justify-content-center align-items-center text-light col-2"></i>
+                            <i
+                                class="fab fa-tumblr  d-flex justify-content-center align-items-center text-light col-2"></i>
+                            <i
+                                class="fas fa-bell  d-flex justify-content-center align-items-center text-light col-2"></i>
+                        </div>
+                    </div>
+                </a>
+
+
+                <div
+                    class="footerDivTwo mt-3 mt-sm-3 mt-lg-0 mt-md-3 mt-lg-0 col-12 col-sm-12 col-md-12 col-lg-3 col-xl-2 col-xxl-2  d-flex flex-column align-items-center align-items-sm-center align-items-md-center align-items-lg-center">
+
+
+                    <div class="dtHeader text-light mt-1 p-1 d-flex col-7 col-sm-7 col-md-7 col-lg-9 ">
+                        CATEGORIES
+
+                        <i class="fas fa-minus p-1 min1"></i>
+                        <i class=" fas fa-plus max1 p-1"></i>
+                    </div>
+
+
+
+                    <a href="" class="text-decoration-none ddContent2 col-md-2 col-md-9">
+                        <li class="text-light p-2">CLOTHING</li>
+                        <li class="text-light p-2">ACESSORIES</li>
+                        <li class="text-light p-2">FOOTWEAR</li>
+                        <li class="text-light p-2">FURNITURE</li>
+                        <li class="text-light p-2">ORAGANIC</li>
+                    </a>
+
+                </div>
+                <div
+                    class="footerDivThree  mt-md-3 mt-lg-0 col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2  d-flex flex-column  align-items-center align-items-sm-center align-items-md-center align-items-lg-start ">
+
+                    <div class="dtHeader text-light mt-1 p-1 d-flex  col-8 col-sm-7 col-md-7 col-lg-10">INFORMATION
+                        <i class="fas fa-minus p-1 min2"></i>
+                        <i class=" fas fa-plus max2 p-1"></i>
+                    </div>
+
+
+                    <a href="" class="text-decoration-none ddContent3 col-md-3 col-lg-12">
+                        <li class="text-light p-2">ABOUT US</li>
+                        <li class="text-light p-2">CONTACT US</li>
+                        <li class="text-light p-2">TERMS CONDITIONS</li>
+                        <li class="text-light p-2">RETURNS</li>
+                        <li class="text-light p-2">EXCHANGE</li>
+                        <li class="text-light p-2">PRIVACY POLICY</li>
+                        <li class="text-light p-2">SHORTCODE PAGE</li>
+
+                    </a>
+                </div>
+                <div
+                    class="footerDivFour   mt-md-3 mt-lg-0 col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2  d-flex flex-column  align-items-center align-items-sm-center align-items-md-center align-items-lg-center ">
+
+                    <div class="dtHeader text-light mt-1 p-1 d-flex col-8 col-sm-7 col-md-7 col-lg-10">QUICK LINKS
+                        <i class="fas fa-minus p-1 min3"></i>
+                        <i class=" fas fa-plus max3 p-1"></i>
+                    </div>
+
+
+                    <a href="" class="text-decoration-none ddContent4 col-md-4 col-lg-10">
+                        <li class="text-light p-2">STORE LOCATION</li>
+                        <li class="text-light p-2">MY ACCOUNT</li>
+                        <li class="text-light p-2">SEARCH</li>
+                        <li class="text-light p-2">SIZE GUIDE</li>
+                        <li class="text-light p-2">FAQ</li>
+                        <li class="text-light p-2">FAQs 2</li>
+                    </a>
+                </div>
+                <div
+                    class="footerDivFive mt-md-3 mt-lg-0 d-md-flex flex-md-column align-items-md-center col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                    <div
+                        class="text-light d-flex align-items-md-center justify-content-md-center mt-2 col-md-12 subHeader">
+                        SUBSCRIBE TO OUR NEWSLETTER AND GET 10% OFF ON YOUR FIRST PURCHASE
+                    </div>
+                    <div class="fSearchBar d-flex col-md-6 col-lg-12 mt-3">
+                        <input type="text" placeholder="YOUR EMAIL ADDRESS" class="bg-transparent col-7  mt-2 p-2"
+                            style="font-size: 9px;">
+                        <a href=""
+                            class="text-decoration-none d-flex align-items-center bg-warning text-light justify-content-center fsButton"
+                            style="font-size: 10px;">SIGN
+                            UP
+                        </a>
+                    </div>
+                    <div class="col-12  col-md-4 col-lg-12  d-flex justify-content-evenly mt-3 fIcon">
+                        <a href="" class="text-decoration-none col-12 justify-content-evenly d-flex">
+                            <i class="fab fa-cc-visa text-light"></i>
+                            <i class="fab fa-cc-paypal text-light"></i>
+                            <i class="fab fa-cc-mastercard text-light"></i>
+                            <i class="fab fa-cc-discover text-light"></i>
+                            <i class="fab fa-cc-amex text-light"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- WEB FOOTER GOES HERE!!!!!!!!! -->
+        <div class="webFooterContainer col-12 d-flex justify-content-evenly">
+            <div
+                class="footerLine col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8  d-flex  align-items-center p-2 text-light">
+                <p class="h-100 mt-4 d-flex align-items-center fontWeight">COPYRIGHTS 2018 ALL RIGHTS RESERVED BY
+                    <b class="text-warning p-1"> GECKO</b> POWERED BY THE4
+                </p>
+            </div>
+            <div
+                class="footerMenu col-3 d-none h-100 align-items-center justify-content-evenly d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex">
+                <a href="" class="text-decoration-none d-flex col-12 justify-content-evenly">
+                    <div class="col-2 text-light">HOME</div>
+                    <div class="col-2 text-light">SHOP</div>
+                    <div class="col-3  text-light">CONTACT</div>
+                    <div class="col-2 text-light">BLOG</div>
+                </a>
+            </div>
+            <a href="#top" class="text-decoration-none d-flex align-items-center position-relative">
+                <div class="goTopButton justify-content-center d-flex align-items-center position-fixed">
+                    <i class="fas fa-angle-up d-flex align-items-center text-light"></i>
+                </div>
+            </a>
+        </div>
+
+</body>
+
+</html>

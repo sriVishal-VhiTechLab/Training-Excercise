@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    height: 96.5vh;
+    width: 98.5vw;
+    margin: 10px;
+}
+
+.item1,
+.item4 {
+    background-color: pink;
+    height: 100%;
+    width: 20%;
+}
+
+.top {
+    background-color: pink;
+    height: 48%;
+    width: 100%;
+}
+
+.bottom {
+    background-color: pink;
+    margin-top: 10px;
+    height: 50.2%;
+    width: 100%;
+}
+
+.item2 {
+    height: 100%;
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
